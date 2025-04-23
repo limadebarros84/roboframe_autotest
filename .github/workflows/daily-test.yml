@@ -1,9 +1,10 @@
 name: Robot Daily Test Execution
 
-# Schedule the workflow to run daily at midnight (UTC)
+# Schedule the workflow to run daily at 14:50 UTC
 on:
   schedule:
-    - cron: '50 14 * * *' # Adjust the time as needed
+    - cron: '55 14 * * *' # Adjust the time as needed
+  workflow_dispatch: # Add this to enable manual triggering
 
 jobs:
   run-tests:
