@@ -3,7 +3,7 @@ name: Robot Daily Test Execution
 # Schedule the workflow to run daily at midnight (UTC)
 on:
   schedule:
-    - cron: '41 14 * * *' # Adjust the time as needed
+    - cron: '50 14 * * *' # Adjust the time as needed
 
 jobs:
   run-tests:
@@ -28,4 +28,4 @@ jobs:
       # Run the tests
       - name: Run tests
         run: |
-          robot daily-test.yml
+          robot tests/
