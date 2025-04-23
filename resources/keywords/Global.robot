@@ -18,7 +18,6 @@ Setup Test Environment
     Generate Random String
     Generate Random Digits
     Open Test Login Page
-    Cookies weigeren
 
 Open Acc Login Page
     [Documentation]    Opent acceptatie omgeving in een nieuwe browsersessie.
