@@ -3,7 +3,8 @@ name: Robot Daily Test Execution
 on:
   schedule:
     - cron: '55 15 * * *' # Adjust the time as needed
-
+  workflow_dispatch: # Allows manual triggering
+  
 jobs:
   run-tests:
     runs-on: ubuntu-latest
