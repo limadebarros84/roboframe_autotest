@@ -1,6 +1,6 @@
 *** Settings ***
 Resource         ./Global.robot
-Resource         ./Aanvraag_straat.resource
+Resource         ./aanvraag_straat.resource
 
 *** Keywords ***
 Nieuwbouw Selecteren
