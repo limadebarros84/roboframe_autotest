@@ -2,8 +2,7 @@ name: Robot Daily Test Execution
 
 on:
   schedule:
-    - cron: '50 14 * * *' # Adjust the time as needed
-  workflow_dispatch: # Allows manual triggering
+    - cron: '55 15 * * *' # Adjust the time as needed
 
 jobs:
   run-tests:
