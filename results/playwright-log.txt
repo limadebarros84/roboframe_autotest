@@ -1,12 +1,12 @@
-{"level":30,"time":"2025-04-23T13:34:53.970Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Listening on 65175"}
-(node:22020) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-04-23T13:42:08.732Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Listening on 65442"}
+(node:27028) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-04-23T13:34:54.078Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-23T13:34:54.093Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Error of node method  newBrowser"}
+{"level":30,"time":"2025-04-23T13:42:08.869Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-23T13:42:08.884Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Error of node method  newBrowser"}
 ================= Original suppressed error =================
 browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-[2m  - <launching> C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-SszHZs --remote-debugging-pipe --no-startup-window[22m
+[2m  - <launching> C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-44r49Q --remote-debugging-pipe --no-startup-window[22m
 [2m  - [pid=N/A] starting temporary directories cleanup[22m
 [2m  - [pid=N/A] finished temporary directories cleanup[22m
 
@@ -18,7 +18,7 @@ Call log:
     at BaseServerInterceptingCall.handleEndEvent (C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
     at ServerHttp2Stream.<anonymous> (C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
 =============================================================
-{"level":30,"time":"2025-04-23T13:34:54.109Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-23T13:42:08.895Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Start of node method takeScreenshot"}
 ================= Original suppressed error =================
 Error: Tried to take screenshot, but no page was open.
     at exists (C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js:10725:11)
@@ -32,9 +32,9 @@ Error: Tried to take screenshot, but no page was open.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-04-23T13:34:54.109Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Error of node method  takeScreenshot"}
-{"level":30,"time":"2025-04-23T13:34:54.119Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-04-23T13:34:54.120Z","pid":22020,"hostname":"NWWI-ICT261","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-04-23T13:42:08.895Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-04-23T13:42:08.907Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-23T13:42:08.908Z","pid":27028,"hostname":"NWWI-ICT261","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js:12223:15)
@@ -48,8 +48,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-04-23T13:34:54.127Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T13:34:54.128Z","pid":22020,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T13:42:08.913Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T13:42:08.914Z","pid":27028,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js:12223:15)
@@ -63,7 +63,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-04-23T13:34:54.141Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T13:34:54.141Z","pid":22020,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T13:34:54.222Z","pid":22020,"hostname":"NWWI-ICT261","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-04-23T13:34:54.222Z","pid":22020,"hostname":"NWWI-ICT261","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-23T13:42:08.928Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T13:42:08.928Z","pid":27028,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T13:42:08.983Z","pid":27028,"hostname":"NWWI-ICT261","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-23T13:42:08.984Z","pid":27028,"hostname":"NWWI-ICT261","msg":"End of node method closeAllBrowsers"}
