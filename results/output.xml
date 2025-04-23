@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-04-23T14:33:38.547794" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-04-23T15:34:53.246578" rpa="false" schemaversion="5">
 <suite id="s1" name="Robotframe Test" source="C:\Users\t.limadebarros\Documents\robotframe_test">
 <suite id="s1-s1" name="Tests" source="C:\Users\t.limadebarros\Documents\robotframe_test\tests">
 <suite id="s1-s1-s1" name="Aanvraag Bijzonder Beheer" source="C:\Users\t.limadebarros\Documents\robotframe_test\tests\aanvraag_bijzonder_beheer.robot">
@@ -7,469 +7,110 @@
 <kw name="Setup Test Environment" owner="Global" type="SETUP">
 <kw name="Generate Random String" owner="Global">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-23T14:33:38.709623" level="INFO">${random_string} = PTfS2i3B</msg>
+<msg time="2025-04-23T15:34:53.434186" level="INFO">${random_string} = hO8YekRJ</msg>
 <var>${random_string}</var>
 <arg>''.join(random.choices(string.ascii_letters + string.digits, k=${length}))</arg>
 <arg>modules=random,string</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.709180" elapsed="0.000625"/>
+<status status="PASS" start="2025-04-23T15:34:53.433732" elapsed="0.000639"/>
 </kw>
 <return>
 <value>${random_string}</value>
-<status status="PASS" start="2025-04-23T14:33:38.709920" elapsed="0.000180"/>
+<status status="PASS" start="2025-04-23T15:34:53.434653" elapsed="0.000483"/>
 </return>
 <doc>Genereert een willekeurige tekenreeks van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.708449" elapsed="0.001775"/>
+<status status="PASS" start="2025-04-23T15:34:53.433040" elapsed="0.002303"/>
 </kw>
 <kw name="Generate Random Digits" owner="Global">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-23T14:33:38.711022" level="INFO">${random_digits} = 6265939279</msg>
+<msg time="2025-04-23T15:34:53.436341" level="INFO">${random_digits} = 0741636258</msg>
 <var>${random_digits}</var>
 <arg>''.join(random.choices(string.digits, k=${length}))</arg>
 <arg>modules=random,string</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.710715" elapsed="0.000429"/>
+<status status="PASS" start="2025-04-23T15:34:53.435995" elapsed="0.000519"/>
 </kw>
 <return>
 <value>${random_digits}</value>
-<status status="PASS" start="2025-04-23T14:33:38.711232" elapsed="0.000437"/>
+<status status="PASS" start="2025-04-23T15:34:53.436598" elapsed="0.000171"/>
 </return>
 <doc>Genereert een willekeurige reeks cijfers van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.710359" elapsed="0.001430"/>
+<status status="PASS" start="2025-04-23T15:34:53.435637" elapsed="0.001236"/>
 </kw>
 <kw name="Open Test Login Page" owner="Global">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-04-23T14:33:38.712994" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\30715d86-29b7-4ebb-993d-48beced3d4a2"}</msg>
-<msg time="2025-04-23T14:33:38.759109" level="INFO">Starting Browser process C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js using port 63868</msg>
-<msg time="2025-04-23T14:33:38.759750" level="INFO">Node startup parameters: ['node', 'C:\\Users\\t.limadebarros\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\Browser\\wrapper\\index.js', '63868']</msg>
-<msg time="2025-04-23T14:33:39.680368" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\30715d86-29b7-4ebb-993d-48beced3d4a2"}</msg>
+<msg time="2025-04-23T15:34:53.438753" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\3f30093b-4db7-4c86-8f0f-f7bf98dc04ea"}</msg>
+<msg time="2025-04-23T15:34:53.474217" level="INFO">Starting Browser process C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js using port 65175</msg>
+<msg time="2025-04-23T15:34:53.474519" level="INFO">Node startup parameters: ['node', 'C:\\Users\\t.limadebarros\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\Browser\\wrapper\\index.js', '65175']</msg>
+<msg time="2025-04-23T15:34:54.111263" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-04-23T15:34:54.111505" level="INFO">See also file:///C:/Users/t.limadebarros/Documents/robotframe_test/results/playwright-log.txt for additional details.</msg>
+<msg time="2025-04-23T15:34:54.111890" level="FAIL">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+Call log:
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-SszHZs --remote-debugging-pipe --no-startup-window
+  - [pid=N/A] starting temporary directories cleanup
+  - [pid=N/A] finished temporary directories cleanup
+</msg>
 <arg>browser=${BROWSER}</arg>
-<arg>headless=${HEADLESS}</arg>
+<arg>headless=true</arg>
 <arg>timeout=${TIMEOUT}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.712236" elapsed="0.968851"/>
+<status status="FAIL" start="2025-04-23T15:34:53.438000" elapsed="0.678022">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+Call log:
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-SszHZs --remote-debugging-pipe --no-startup-window
+  - [pid=N/A] starting temporary directories cleanup
+  - [pid=N/A] finished temporary directories cleanup
+</status>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-04-23T14:33:40.784671" level="INFO">Successfully initialized new page object and opened url: https://aanvraag.test.digitaaltaxatierapport.nl</msg>
-<msg time="2025-04-23T14:33:40.785189" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${BASE_URL_TEST}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-04-23T14:33:39.681651" elapsed="1.104157"/>
+<status status="NOT RUN" start="2025-04-23T15:34:54.116371" elapsed="0.000163"/>
 </kw>
 <doc>Opent test omgeving in een nieuwe browsersessie.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.711925" elapsed="2.074492"/>
-</kw>
-<kw name="Cookies weigeren" owner="Global">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-23T14:33:40.846486" level="INFO">Waited for Element with selector css=button &gt;&gt; text="Weigeren" at state visible</msg>
-<arg>css=button &gt;&gt; text="Weigeren"</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-23T14:33:40.789211" elapsed="0.058059"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:40.849349" level="INFO">Clicks the element 'css=button &gt;&gt; text="Weigeren"'.</msg>
-<arg>css=button &gt;&gt; text="Weigeren"</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:40.847907" elapsed="0.211628"/>
-</kw>
-<doc>Behandelt cookie- en authenticatiepop-ups.</doc>
-<status status="PASS" start="2025-04-23T14:33:40.787733" elapsed="0.272165"/>
+<status status="FAIL" start="2025-04-23T15:34:53.436996" elapsed="0.679682">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+Call log:
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-SszHZs --remote-debugging-pipe --no-startup-window
+  - [pid=N/A] starting temporary directories cleanup
+  - [pid=N/A] finished temporary directories cleanup
+</status>
 </kw>
 <doc>Laadt de test-omgeving en opent de inlogpagina en weigert cookies.</doc>
-<status status="PASS" start="2025-04-23T14:33:38.707705" elapsed="2.352456"/>
-</kw>
-<kw name="Woningtaxatie Aanvragen" owner="Aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.115585" level="INFO">Text: 'Woningtaxatie aanvragen'</msg>
-<arg>//h1[normalize-space()="Woningtaxatie aanvragen"]</arg>
-<arg>==</arg>
-<arg>Woningtaxatie aanvragen</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.061546" elapsed="0.054631"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.138439" level="INFO">Text: 'Consument'</msg>
-<arg>//h6[normalize-space()="Consument"]</arg>
-<arg>==</arg>
-<arg>Consument</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.117137" elapsed="0.021570"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.161157" level="INFO">Text: 'Taxateur'</msg>
-<arg>//h6[normalize-space()="Taxateur"]</arg>
-<arg>==</arg>
-<arg>Taxateur</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.138920" elapsed="0.022767"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.178254" level="INFO">Text: 'Geldverstrekker'</msg>
-<arg>//h6[normalize-space()="Geldverstrekker"]</arg>
-<arg>==</arg>
-<arg>Geldverstrekker</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.161948" elapsed="0.016548"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.194741" level="INFO">Text: 'Tussenpersoon'</msg>
-<arg>//h6[normalize-space()="Tussenpersoon"]</arg>
-<arg>==</arg>
-<arg>Tussenpersoon</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.178709" elapsed="0.016291"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.208488" level="INFO">Text: 'Woningcorporatie'</msg>
-<arg>//h6[normalize-space()="Woningcorporatie"]</arg>
-<arg>==</arg>
-<arg>Woningcorporatie</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.195198" elapsed="0.013844"/>
-</kw>
-<doc>Verifieert de aanwezigheid van de elementen op de Woningtaxatie aanvragen pagina.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.060785" elapsed="0.148443"/>
-</kw>
-<kw name="Kies Ingang" owner="Aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:41.211020" level="INFO">Clicks the element '//h6[normalize-space()="Tussenpersoon"]'.</msg>
-<arg>//h6[normalize-space()="${ingang}"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.210477" elapsed="0.070359"/>
-</kw>
-<arg>Tussenpersoon</arg>
-<doc>Selecteert de ingang op basis van de opgegeven waarde.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.209715" elapsed="0.071355"/>
-</kw>
-<kw name="Vul Adresgegevens" owner="aanvraag_straat_keywords">
-<kw name="Postcode Huisnummer" owner="Aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.285934" level="INFO">Types the text '5398JJ' in the given field.</msg>
-<arg>//input[@id="searchPostcode"]</arg>
-<arg>${postcode}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.284635" elapsed="0.122552"/>
-</kw>
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-23T14:33:41.408488" level="INFO">Types the text '57' in the given field.</msg>
-<arg>//input[@id="searchHouseNumber"]</arg>
-<arg>${huisnummer}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.407584" elapsed="0.048218"/>
-</kw>
-<arg>${postcode}</arg>
-<arg>${huisnummer}</arg>
-<doc>Voert postcode en huisnummer in.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.283872" elapsed="0.172167"/>
-</kw>
-<kw name="Zoeken" owner="Aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:41.457126" level="INFO">Clicks the element 'css=button &gt;&gt; text=Zoeken'.</msg>
-<arg>css=button &gt;&gt; text=Zoeken</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.456691" elapsed="0.039787"/>
-</kw>
-<doc>Klikt op de knop "Zoeken".</doc>
-<status status="PASS" start="2025-04-23T14:33:41.456219" elapsed="0.040461"/>
-</kw>
-<kw name="Adres Selecteren Zonder Huisnummertoevoeging" owner="Aanvraag_straat">
-<kw name="Hover" owner="Browser">
-<arg>//span[normalize-space()="${straat} ${huisnummer}"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Moves the virtual mouse and scrolls to the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.497799" elapsed="1.373762"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:42.873887" level="INFO">Clicks the element '//span[normalize-space()="Provincialeweg 57"]'.</msg>
-<arg>//span[normalize-space()="${straat} ${huisnummer}"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:42.872080" elapsed="0.053891"/>
-</kw>
-<kw name="Hover" owner="Browser">
-<arg>css=button &gt;&gt; text=Selecteer</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Moves the virtual mouse and scrolls to the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:42.926896" elapsed="0.076962"/>
-</kw>
-<arg>${straatnaam}</arg>
-<arg>${huisnummer}</arg>
-<doc>Selecteert een adres zonder huisnummertoevoeging.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.496857" elapsed="1.507441"/>
-</kw>
-<arg>5398JJ</arg>
-<arg>57</arg>
-<arg>Provincialeweg</arg>
-<doc>Vul de adresgegevens in.</doc>
-<status status="PASS" start="2025-04-23T14:33:41.282213" elapsed="1.722341"/>
-</kw>
-<kw name="Selecteer Adres" owner="aanvraag_straat_keywords">
-<kw name="Selecteer" owner="Aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:43.008578" level="INFO">Clicks the element 'css=button &gt;&gt; text=Selecteer'.</msg>
-<arg>css=button &gt;&gt; text=Selecteer</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.007376" elapsed="0.088227"/>
-</kw>
-<doc>Klikt op de knop "Selecteer".</doc>
-<status status="PASS" start="2025-04-23T14:33:43.006540" elapsed="0.089834"/>
-</kw>
-<status status="PASS" start="2025-04-23T14:33:43.005389" elapsed="0.091398"/>
-</kw>
-<kw name="Vul Bouwgegevens" owner="aanvraag_straat_keywords">
-<kw name="Soort Bouw" owner="Aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:43.176091" level="INFO">Text: 'Om welk type bouw gaat het?'</msg>
-<arg>//h2[normalize-space()="Om welk type bouw gaat het?"]</arg>
-<arg>==</arg>
-<arg>Om welk type bouw gaat het?</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.102818" elapsed="0.073996"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:43.178336" level="INFO">Clicks the element '//label[normalize-space()="Bestaande bouw"]'.</msg>
-<arg>//label[normalize-space()="${soortbouw}"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.177165" elapsed="0.052859"/>
-</kw>
-<arg>${soort_bouw}</arg>
-<doc>Selecteert het type bouw.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.100567" elapsed="0.129733"/>
-</kw>
-<kw name="Volgende" owner="Aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:43.232395" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.231315" elapsed="0.052123"/>
-</kw>
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-23T14:33:43.230583" elapsed="0.053382"/>
-</kw>
-<arg>Bestaande bouw</arg>
-<doc>Vul de bouwgegevens in.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.098231" elapsed="0.186045"/>
-</kw>
-<kw name="Vul Doelgegevens" owner="aanvraag_straat_keywords">
-<kw name="Doel" owner="Aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:43.390383" level="INFO">Text: 'Doel van taxatie'</msg>
-<arg>//h2[normalize-space()="Doel van taxatie"]</arg>
-<arg>==</arg>
-<arg>Doel van taxatie</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.286531" elapsed="0.104515"/>
-</kw>
-<kw name="Run Keyword If" owner="BuiltIn">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:43.394722" level="INFO">Clicks the element '//label[contains(text(),"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)")]'.</msg>
-<arg>//label[contains(text(),"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)")]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.393283" elapsed="0.038586"/>
-</kw>
-<arg>'${doel}' == 'Financiering'</arg>
-<arg>Click</arg>
-<arg>//label[normalize-space()="Een lening krijgen of aanpassen (financiering)"]</arg>
-<arg>ELSE IF</arg>
-<arg>'${doel}' == 'Aankoopbeslissing'</arg>
-<arg>Click</arg>
-<arg>//label[normalize-space()="U wilt de woning kopen (aankoopbeslissing)"]</arg>
-<arg>ELSE IF</arg>
-<arg>'${doel}' == 'Gedwongen Verkoop'</arg>
-<arg>Click</arg>
-<arg>//label[contains(text(),"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)")]</arg>
-<arg>ELSE IF</arg>
-<arg>'${doel}' == 'Een Andere Reden'</arg>
-<arg>Click</arg>
-<arg>//label[contains(text(),"Een andere reden, namelijk (bijvoorbeeld voor een boedelscheiding of een vereffening van een erfenis")]</arg>
-<arg>ELSE</arg>
-<arg>Fail</arg>
-<arg>"Invalid doel value: ${doel}"</arg>
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.391654" elapsed="0.040629"/>
-</kw>
-<arg>${doel}</arg>
-<doc>Selecteert het doel van de taxatie.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.285987" elapsed="0.147002"/>
-</kw>
-<kw name="Volgende" owner="Aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:43.436604" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.434973" elapsed="0.058071"/>
-</kw>
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-23T14:33:43.433693" elapsed="0.059943"/>
-</kw>
-<arg>Gedwongen Verkoop</arg>
-<doc>Vul het doel van de aanvraag in.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.285045" elapsed="0.208745"/>
-</kw>
-<kw name="Vul Tussenpersoongegevens" owner="aanvraag_straat_keywords">
-<kw name="Tussenpersoon" owner="Aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-23T14:33:43.770394" level="INFO">Text: 'Tussenpersoon'</msg>
-<arg>//h2[normalize-space()="Tussenpersoon"]</arg>
-<arg>==</arg>
-<arg>Tussenpersoon</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.496361" elapsed="0.274491"/>
-</kw>
-<status status="PASS" start="2025-04-23T14:33:43.495673" elapsed="0.275481"/>
-</kw>
-<kw name="Opvoeren Tekst Combobox" owner="Aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-23T14:33:43.774191" level="INFO">Types the text 'Redert Advies' in the given field.</msg>
-<arg>css=[id^="headlessui-combobox-input-:"]</arg>
-<arg>${comboboxtekst}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-23T14:33:43.772633" elapsed="0.129958"/>
-</kw>
-<arg>${tussenpersoon}</arg>
-<status status="PASS" start="2025-04-23T14:33:43.771470" elapsed="0.131445"/>
-</kw>
-<kw name="Bevestig Keuze Combobox" owner="Aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-23T14:33:43.904883" level="INFO">Clicks the element 'css=[id^="headlessui-combobox-option-:"]'.</msg>
-<msg time="2025-04-23T14:33:54.050886" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<msg time="2025-04-23T14:33:54.051272" level="INFO">See also file:///C:/Users/t.limadebarros/Documents/robotframe_test/results/playwright-log.txt for additional details.</msg>
-<msg time="2025-04-23T14:33:54.051922" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
+<status status="FAIL" start="2025-04-23T15:34:53.432506" elapsed="0.684284">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
-</msg>
-<arg>css=[id^="headlessui-combobox-option-:"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="FAIL" start="2025-04-23T14:33:43.904019" elapsed="10.154656">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-SszHZs --remote-debugging-pipe --no-startup-window
+  - [pid=N/A] starting temporary directories cleanup
+  - [pid=N/A] finished temporary directories cleanup
 </status>
-</kw>
-<status status="FAIL" start="2025-04-23T14:33:43.903252" elapsed="10.155646">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
-</status>
-</kw>
-<kw name="Volgende" owner="Aanvraag_straat">
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="NOT RUN" start="2025-04-23T14:33:54.059065" elapsed="0.000144"/>
-</kw>
-<arg>Redert Advies</arg>
-<status status="FAIL" start="2025-04-23T14:33:43.494522" elapsed="10.564794">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
-</status>
-</kw>
-<kw name="Vul Geldverstrekkergegevens" owner="aanvraag_straat_keywords">
-<arg>AEGON Bijzonder Beheer</arg>
-<status status="NOT RUN" start="2025-04-23T14:33:54.059830" elapsed="0.000292"/>
-</kw>
-<kw name="Vul Opdrachtgever Relatie" owner="aanvraag_straat_keywords">
-<status status="NOT RUN" start="2025-04-23T14:33:54.060849" elapsed="0.000227"/>
-</kw>
-<kw name="Vul Opdrachtvoorwaarden" owner="aanvraag_straat_keywords">
-<status status="NOT RUN" start="2025-04-23T14:33:54.061533" elapsed="0.000258"/>
-</kw>
-<kw name="Vul Waardepeildatum" owner="aanvraag_straat_keywords">
-<arg>01-04-2025</arg>
-<status status="NOT RUN" start="2025-04-23T14:33:54.062203" elapsed="0.000235"/>
-</kw>
-<kw name="Vul Vervolg Opdrachtvoorwaarden" owner="aanvraag_straat_keywords">
-<arg>Geen aanvullende afspraken</arg>
-<arg>0</arg>
-<arg>561,99</arg>
-<arg>89,49</arg>
-<status status="NOT RUN" start="2025-04-23T14:33:54.062902" elapsed="0.000231"/>
-</kw>
-<kw name="Vul Taxateurgegevens" owner="aanvraag_straat_keywords">
-<arg>NWWI Test Kantoor</arg>
-<status status="NOT RUN" start="2025-04-23T14:33:54.063590" elapsed="0.000231"/>
-</kw>
-<kw name="Controleer En Verstuur Aanvraag" owner="aanvraag_straat_keywords">
-<status status="NOT RUN" start="2025-04-23T14:33:54.064133" elapsed="0.000191"/>
 </kw>
 <kw name="Tear Down Environment" owner="Global" type="TEARDOWN">
 <kw name="Close Browser" owner="Browser">
-<msg time="2025-04-23T14:33:54.692371" level="INFO">Closed browser</msg>
+<msg time="2025-04-23T15:34:54.121700" level="INFO">No browser open, doing nothing</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-04-23T14:33:54.065217" elapsed="0.627861"/>
+<status status="PASS" start="2025-04-23T15:34:54.117663" elapsed="0.004317"/>
 </kw>
 <doc>Sluit de browser en verwijdert de omgevingsvariabelen.</doc>
-<status status="PASS" start="2025-04-23T14:33:54.064744" elapsed="0.628667"/>
+<status status="PASS" start="2025-04-23T15:34:54.117322" elapsed="0.004802"/>
 </kw>
-<status status="FAIL" start="2025-04-23T14:33:38.706030" elapsed="15.987997">TimeoutError: locator.click: Timeout 10000ms exceeded.
+<status status="FAIL" start="2025-04-23T15:34:53.431256" elapsed="0.691181">Setup failed:
+Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-SszHZs --remote-debugging-pipe --no-startup-window
+  - [pid=N/A] starting temporary directories cleanup
+  - [pid=N/A] finished temporary directories cleanup
 </status>
 </test>
-<status status="FAIL" start="2025-04-23T14:33:38.566230" elapsed="16.142401"/>
+<status status="FAIL" start="2025-04-23T15:34:53.278727" elapsed="0.852058"/>
 </suite>
-<status status="FAIL" start="2025-04-23T14:33:38.563686" elapsed="16.173420"/>
+<status status="FAIL" start="2025-04-23T15:34:53.273550" elapsed="0.869810"/>
 </suite>
-<status status="FAIL" start="2025-04-23T14:33:38.550609" elapsed="16.187999"/>
+<status status="FAIL" start="2025-04-23T15:34:53.252366" elapsed="0.892409"/>
 </suite>
 <statistics>
 <total>

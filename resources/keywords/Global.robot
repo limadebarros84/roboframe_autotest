@@ -9,7 +9,6 @@ ${BASE_URL_ACC}       https://betatest.acc.taxatieweb.nl/inloggen
 ${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
 ${LOGIN_URL}      ${EMPTY}  # Wordt geladen uit .env
 ${PASSWORD}       ${EMPTY}  # Wordt geladen uit .env
-${HEADLESS}       true
 ${TIMEOUT}        0:00:30
 
 *** Keywords ***
@@ -19,15 +18,9 @@ Setup Test Environment
     Generate Random Digits
     Open Test Login Page
 
-Open Acc Login Page
-    [Documentation]    Opent acceptatie omgeving in een nieuwe browsersessie.
-    New Browser    browser=${BROWSER}    headless=${HEADLESS}    timeout=${TIMEOUT}
-    New Page       ${BASE_URL_ACC}
-    Go To          ${LOGIN_URL}
-
 Open Test Login Page
     [Documentation]    Opent test omgeving in een nieuwe browsersessie.
-    New Browser    browser=${BROWSER}    headless=${HEADLESS}    timeout=${TIMEOUT}
+    New Browser    browser=${BROWSER}    headless=true    timeout=${TIMEOUT}
     New Page       ${BASE_URL_TEST}
 
 Cookies weigeren

@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ./Global.robot
+Resource    ../keywords/Global.robot
 
 *** Keywords ***
 # Section: General Keywords
