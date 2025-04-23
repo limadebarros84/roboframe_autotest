@@ -34,7 +34,7 @@ jobs:
       - name: Run tests
         run: |
           robot tests/
-          robot --outputdir results
+          robot --outputdir results/
 
       # Upload Robot Framework reports
       - name: Upload Robot Framework reports
