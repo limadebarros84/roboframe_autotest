@@ -4,13 +4,13 @@ Library           OperatingSystem
 Library           String
 
 *** Variables ***
-${BROWSER}        chromium
+${BROWSER}            chromium
 ${BASE_URL_ACC}       https://betatest.acc.taxatieweb.nl/inloggen
 ${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
-${LOGIN_URL}      ${EMPTY}  # Wordt geladen uit .env
-${PASSWORD}       ${EMPTY}  # Wordt geladen uit .env
-${HEADLESS}       true
-${TIMEOUT}        0:00:30
+${LOGIN_URL}          ${EMPTY}  # Wordt geladen uit .env
+${PASSWORD}           ${EMPTY}  # Wordt geladen uit .env
+${HEADLESS}           false
+${TIMEOUT}            0:00:30
 
 *** Keywords ***
 Setup Test Environment

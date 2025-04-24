@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-04-23T15:42:08.029017" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-04-24T09:14:21.770045" rpa="false" schemaversion="5">
 <suite id="s1" name="Robotframe Test" source="C:\Users\t.limadebarros\Documents\robotframe_test">
 <suite id="s1-s1" name="Tests" source="C:\Users\t.limadebarros\Documents\robotframe_test\tests">
 <suite id="s1-s1-s1" name="Aanvraag Bijzonder Beheer" source="C:\Users\t.limadebarros\Documents\robotframe_test\tests\aanvraag_bijzonder_beheer.robot">
@@ -7,59 +7,58 @@
 <kw name="Setup Test Environment" owner="Global" type="SETUP">
 <kw name="Generate Random String" owner="Global">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-23T15:42:08.222612" level="INFO">${random_string} = P6V7siLK</msg>
+<msg time="2025-04-24T09:14:24.602584" level="INFO">${random_string} = OYNLvw39</msg>
 <var>${random_string}</var>
 <arg>''.join(random.choices(string.ascii_letters + string.digits, k=${length}))</arg>
 <arg>modules=random,string</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-23T15:42:08.222193" elapsed="0.000555"/>
+<status status="PASS" start="2025-04-24T09:14:24.602175" elapsed="0.000588"/>
 </kw>
 <return>
 <value>${random_string}</value>
-<status status="PASS" start="2025-04-23T15:42:08.222872" elapsed="0.000366"/>
+<status status="PASS" start="2025-04-24T09:14:24.602881" elapsed="0.000195"/>
 </return>
 <doc>Genereert een willekeurige tekenreeks van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-23T15:42:08.221550" elapsed="0.001883"/>
+<status status="PASS" start="2025-04-24T09:14:24.601396" elapsed="0.001817"/>
 </kw>
 <kw name="Generate Random Digits" owner="Global">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-23T15:42:08.224215" level="INFO">${random_digits} = 3383035248</msg>
+<msg time="2025-04-24T09:14:24.603987" level="INFO">${random_digits} = 7067727543</msg>
 <var>${random_digits}</var>
 <arg>''.join(random.choices(string.digits, k=${length}))</arg>
 <arg>modules=random,string</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-23T15:42:08.223903" elapsed="0.000441"/>
+<status status="PASS" start="2025-04-24T09:14:24.603660" elapsed="0.000457"/>
 </kw>
 <return>
 <value>${random_digits}</value>
-<status status="PASS" start="2025-04-23T15:42:08.224422" elapsed="0.000145"/>
+<status status="PASS" start="2025-04-24T09:14:24.604200" elapsed="0.000102"/>
 </return>
 <doc>Genereert een willekeurige reeks cijfers van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-23T15:42:08.223584" elapsed="0.001072"/>
+<status status="PASS" start="2025-04-24T09:14:24.603352" elapsed="0.001038"/>
 </kw>
 <kw name="Open Test Login Page" owner="Global">
-<kw name="Open Browser" owner="Browser">
-<msg time="2025-04-23T15:42:08.225490" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg time="2025-04-23T15:42:08.226829" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\43127c8a-392a-49f7-a6f2-30b2986b0834"}</msg>
-<msg time="2025-04-23T15:42:08.258006" level="INFO">Starting Browser process C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js using port 65442</msg>
-<msg time="2025-04-23T15:42:08.258279" level="INFO">Node startup parameters: ['node', 'C:\\Users\\t.limadebarros\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\Browser\\wrapper\\index.js', '65442']</msg>
-<msg time="2025-04-23T15:42:08.897286" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+<kw name="New Browser" owner="Browser">
+<msg time="2025-04-24T09:14:24.605272" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\c8032c40-5fc3-4c1b-b7fc-c79ebe6d37d6"}</msg>
+<msg time="2025-04-24T09:14:24.640306" level="INFO">Starting Browser process C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\index.js using port 55080</msg>
+<msg time="2025-04-24T09:14:24.640905" level="INFO">Node startup parameters: ['node', 'C:\\Users\\t.limadebarros\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\Browser\\wrapper\\index.js', '55080']</msg>
+<msg time="2025-04-24T09:14:25.449191" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
 Error: Tried to take screenshot, but no page was open.</msg>
-<msg time="2025-04-23T15:42:08.897858" level="INFO">See also file:///C:/Users/t.limadebarros/Documents/robotframe_test/results/playwright-log.txt for additional details.</msg>
-<msg time="2025-04-23T15:42:08.898233" level="FAIL">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+<msg time="2025-04-24T09:14:25.449426" level="INFO">See also file:///C:/Users/t.limadebarros/Documents/robotframe_test/results/playwright-log.txt for additional details.</msg>
+<msg time="2025-04-24T09:14:25.450065" level="FAIL">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-44r49Q --remote-debugging-pipe --no-startup-window
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-wJqCTz --remote-debugging-pipe --no-startup-window
   - [pid=N/A] starting temporary directories cleanup
   - [pid=N/A] finished temporary directories cleanup
 </msg>
 <arg>browser=${BROWSER}</arg>
-<arg>headless=${HEADLESS}</arg>
+<arg>headless=true</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
-<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<status status="FAIL" start="2025-04-23T15:42:08.225076" elapsed="0.679411">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-04-24T09:14:24.604735" elapsed="0.924065">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-44r49Q --remote-debugging-pipe --no-startup-window
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-wJqCTz --remote-debugging-pipe --no-startup-window
   - [pid=N/A] starting temporary directories cleanup
   - [pid=N/A] finished temporary directories cleanup
 </status>
@@ -69,52 +68,48 @@ Call log:
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="NOT RUN" start="2025-04-23T15:42:08.904848" elapsed="0.000176"/>
+<status status="NOT RUN" start="2025-04-24T09:14:25.529329" elapsed="0.000217"/>
 </kw>
 <doc>Opent test omgeving in een nieuwe browsersessie.</doc>
-<status status="FAIL" start="2025-04-23T15:42:08.224768" elapsed="0.680414">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+<status status="FAIL" start="2025-04-24T09:14:24.604502" elapsed="0.925232">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-44r49Q --remote-debugging-pipe --no-startup-window
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-wJqCTz --remote-debugging-pipe --no-startup-window
   - [pid=N/A] starting temporary directories cleanup
   - [pid=N/A] finished temporary directories cleanup
 </status>
 </kw>
-<kw name="Cookies weigeren" owner="Global">
-<doc>Behandelt cookie- en authenticatiepop-ups.</doc>
-<status status="NOT RUN" start="2025-04-23T15:42:08.905357" elapsed="0.000107"/>
-</kw>
 <doc>Laadt de test-omgeving en opent de inlogpagina en weigert cookies.</doc>
-<status status="FAIL" start="2025-04-23T15:42:08.221147" elapsed="0.684415">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
+<status status="FAIL" start="2025-04-24T09:14:24.600729" elapsed="0.929137">Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-44r49Q --remote-debugging-pipe --no-startup-window
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-wJqCTz --remote-debugging-pipe --no-startup-window
   - [pid=N/A] starting temporary directories cleanup
   - [pid=N/A] finished temporary directories cleanup
 </status>
 </kw>
 <kw name="Tear Down Environment" owner="Global" type="TEARDOWN">
 <kw name="Close Browser" owner="Browser">
-<msg time="2025-04-23T15:42:08.909438" level="INFO">No browser open, doing nothing</msg>
+<msg time="2025-04-24T09:14:25.538751" level="INFO">No browser open, doing nothing</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-04-23T15:42:08.906549" elapsed="0.003095"/>
+<status status="PASS" start="2025-04-24T09:14:25.532344" elapsed="0.006706"/>
 </kw>
 <doc>Sluit de browser en verwijdert de omgevingsvariabelen.</doc>
-<status status="PASS" start="2025-04-23T15:42:08.906232" elapsed="0.003532"/>
+<status status="PASS" start="2025-04-24T09:14:25.530824" elapsed="0.008380"/>
 </kw>
-<status status="FAIL" start="2025-04-23T15:42:08.220245" elapsed="0.689833">Setup failed:
+<status status="FAIL" start="2025-04-24T09:14:24.599033" elapsed="0.940725">Setup failed:
 Error: browserType.launch: Failed to launch: Error: spawn C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe ENOENT
 Call log:
-  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-44r49Q --remote-debugging-pipe --no-startup-window
+  - &lt;launching&gt; C:\Users\t.limadebarros\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium_headless_shell-1161\chrome-win\headless_shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\TC050~1.LIM\AppData\Local\Temp\playwright_chromiumdev_profile-wJqCTz --remote-debugging-pipe --no-startup-window
   - [pid=N/A] starting temporary directories cleanup
   - [pid=N/A] finished temporary directories cleanup
 </status>
 </test>
-<status status="FAIL" start="2025-04-23T15:42:08.055910" elapsed="0.861547"/>
+<status status="FAIL" start="2025-04-24T09:14:21.970110" elapsed="3.586520"/>
 </suite>
-<status status="FAIL" start="2025-04-23T15:42:08.053647" elapsed="0.878673"/>
+<status status="FAIL" start="2025-04-24T09:14:21.966318" elapsed="3.608922"/>
 </suite>
-<status status="FAIL" start="2025-04-23T15:42:08.032619" elapsed="0.901395"/>
+<status status="FAIL" start="2025-04-24T09:14:21.796815" elapsed="3.780828"/>
 </suite>
 <statistics>
 <total>
@@ -129,6 +124,5 @@ Call log:
 </suite>
 </statistics>
 <errors>
-<msg time="2025-04-23T15:42:08.225490" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>
