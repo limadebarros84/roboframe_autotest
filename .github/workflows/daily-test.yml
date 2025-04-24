@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Specify exact version for reliability
+          python-version: '3.x'  
 
       - name: Install Python dependencies
         run: |
@@ -24,6 +24,11 @@ jobs:
           pip install robotframework
           pip install robotframework-browser
           pip install playwright
+
+      # Initialize RF Browser (downloads browser binaries)
+      - name: Initialize RF Browser
+        run: |
+          rfbrowser init
 
       - name: Install Playwright browsers
         run: |
