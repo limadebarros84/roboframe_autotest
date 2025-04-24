@@ -6,8 +6,7 @@ Library           String
 *** Variables ***
 ${BROWSER}            chromium
 ${BASE_URL_ACC}       https://betatest.acc.taxatieweb.nl/inloggen
-# ${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
-${BASE_URL_TEST}      https://aanvraag.acc.nwwi.nl/
+${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
 ${LOGIN_URL}          ${EMPTY}  # Wordt geladen uit .env
 ${PASSWORD}           ${EMPTY}  # Wordt geladen uit .env
 ${HEADLESS}           true
@@ -19,11 +18,12 @@ Setup Test Environment
     Generate Random String
     Generate Random Digits
     Open Test Login Page
-    # Cookies weigeren
+    Cookies weigeren
 
 Open Test Login Page
     [Documentation]    Opent test omgeving in een nieuwe browsersessie.
     New Browser    browser=${BROWSER}    headless=${HEADLESS}    timeout=${TIMEOUT}
+    Add Cookie    name=_hjSessionUser_2983622    value=eyJpZCI6ImM0ZmNkNDU3LTk2YmItNTQ4YS04ZjQ0LTg0YjkzZTc1YmU2ZCIsImNyZWF0ZWQiOjE3NDM0MTMzMzIxNTcsImV4aXN0aW5nIjp0cnVlfQ== 
     New Page       ${BASE_URL_TEST}
 
 Cookies weigeren
