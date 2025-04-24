@@ -23,7 +23,7 @@ jobs:
           pip install --upgrade pip
           pip install robotframework
           pip install robotframework-browser
-          pip robotframework-requests
+          pip install robotframework-requests
           pip install playwright
 
       # Initialize RF Browser (downloads browser binaries)
