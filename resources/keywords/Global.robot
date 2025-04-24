@@ -18,7 +18,7 @@ Setup Test Environment
     Generate Random String
     Generate Random Digits
     Open Test Login Page
-    # Cookies weigeren
+    Cookies weigeren
 
 Open Test Login Page
     [Documentation]    Opent test omgeving in een nieuwe browsersessie.
