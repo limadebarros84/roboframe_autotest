@@ -2,7 +2,7 @@ name: Robot Daily Test Execution
 
 on:
   schedule:
-    - cron: '55 15 * * *'  # Runs daily at 15:55 UTC (adjust timezone as needed)
+    - cron: '55 15 * * *'  # Runs daily at 15:55 UTC
   workflow_dispatch:        # Allows manual triggering
 
 jobs:
@@ -10,38 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository
       - name: Checkout code
-        uses: actions/checkout@v4  # Updated to latest version
+        uses: actions/checkout@v4
 
+      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  
+          python-version: '3.x'
 
+      # Install Python dependencies
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install robotframework
-          pip install robotframework-browser
-          pip install robotframework-requests
-          pip install playwright
+          pip install -r requirements.txt
 
       # Initialize RF Browser (downloads browser binaries)
       - name: Initialize RF Browser
         run: |
           rfbrowser init
 
-      - name: Install Playwright browsers
+      # Install Playwright system dependencies
+      - name: Install Playwright dependencies
         run: |
-          playwright install chromium
           playwright install-deps
 
-      # Run tests
+      # Run the tests
       - name: Run tests
         run: |
           robot --outputdir results/ tests/
 
-      # Upload test results and screenshots
+      # Upload Robot Framework test results
       - name: Upload test results and screenshots
         uses: actions/upload-artifact@v4
         if: always()
