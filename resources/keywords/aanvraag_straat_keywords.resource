@@ -59,7 +59,7 @@ Vul Opdrachtgever Relatie
 
 Vul Opdrachtvoorwaarden
     Opdrachtvoorwaarden Vullen Anders    Bijzonderbeheerrapport ref      niet bekend is wie de woning hoe gebruikt.    anders, namelijk:     waarschijnlijk naar de veiling brengen
-    Huurovereenkomst    Nee
+    # Huurovereenkomst    Nee
 
 Vul Waardepeildatum
     [Arguments]    ${datum}

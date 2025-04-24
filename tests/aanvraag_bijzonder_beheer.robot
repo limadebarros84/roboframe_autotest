@@ -7,8 +7,6 @@ Test Teardown    Teardown Environment
 *** Test Cases ***
 Aanvraag gedwongen verkoop via intermediairsingang
     [Teardown]    Take Screenshot
-    Sleep    10s
-    Wait For Elements State    //h1[normalize-space()="Woningtaxatie aanvragen"]    visible    timeout=30s
     Woningtaxatie Aanvragen
     Kies Ingang    Tussenpersoon
     Vul Adresgegevens    5398JJ    57    Provincialeweg

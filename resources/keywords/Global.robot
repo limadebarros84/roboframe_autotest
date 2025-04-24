@@ -6,10 +6,11 @@ Library           String
 *** Variables ***
 ${BROWSER}            chromium
 ${BASE_URL_ACC}       https://betatest.acc.taxatieweb.nl/inloggen
-${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
+# ${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
+${BASE_URL_TEST}      https://aanvraag.acc.nwwi.nl/
 ${LOGIN_URL}          ${EMPTY}  # Wordt geladen uit .env
 ${PASSWORD}           ${EMPTY}  # Wordt geladen uit .env
-${HEADLESS}           true
+${HEADLESS}           false
 ${TIMEOUT}            0:00:30
 
 *** Keywords ***
