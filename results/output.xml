@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-24T10:53:30.373633" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-24T11:43:16.052856" rpa="false" schemaversion="5">
 <suite id="s1" name="Robotframe Test" source="C:\Users\t.limadebarros\Documents\robotframe_test">
 <suite id="s1-s1" name="Tests" source="C:\Users\t.limadebarros\Documents\robotframe_test\tests">
 <suite id="s1-s1-s1" name="Aanvraag Bijzonder Beheer" source="C:\Users\t.limadebarros\Documents\robotframe_test\tests\aanvraag_bijzonder_beheer.robot">
@@ -7,89 +7,84 @@
 <kw name="Setup Test Environment" owner="Global" type="SETUP">
 <kw name="Generate Random String" owner="Global">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-24T10:53:30.640421" level="INFO">${random_string} = XLlF7lJu</msg>
+<msg time="2025-04-24T11:43:16.409064" level="INFO">${random_string} = FgPvMwzp</msg>
 <var>${random_string}</var>
 <arg>''.join(random.choices(string.ascii_letters + string.digits, k=${length}))</arg>
 <arg>modules=random,string</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.640029" elapsed="0.000594"/>
+<status status="PASS" start="2025-04-24T11:43:16.407353" elapsed="0.002775"/>
 </kw>
 <return>
 <value>${random_string}</value>
-<status status="PASS" start="2025-04-24T10:53:30.640877" elapsed="0.000134"/>
+<status status="PASS" start="2025-04-24T11:43:16.410536" elapsed="0.001853"/>
 </return>
 <doc>Genereert een willekeurige tekenreeks van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.639285" elapsed="0.001845"/>
+<status status="PASS" start="2025-04-24T11:43:16.406035" elapsed="0.006824"/>
 </kw>
 <kw name="Generate Random Digits" owner="Global">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-24T10:53:30.641923" level="INFO">${random_digits} = 4751258105</msg>
+<msg time="2025-04-24T11:43:16.414282" level="INFO">${random_digits} = 3860924940</msg>
 <var>${random_digits}</var>
 <arg>''.join(random.choices(string.digits, k=${length}))</arg>
 <arg>modules=random,string</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.641620" elapsed="0.000428"/>
+<status status="PASS" start="2025-04-24T11:43:16.413794" elapsed="0.000679"/>
 </kw>
 <return>
 <value>${random_digits}</value>
-<status status="PASS" start="2025-04-24T10:53:30.642130" elapsed="0.000099"/>
+<status status="PASS" start="2025-04-24T11:43:16.414581" elapsed="0.000182"/>
 </return>
 <doc>Genereert een willekeurige reeks cijfers van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.641360" elapsed="0.000959"/>
+<status status="PASS" start="2025-04-24T11:43:16.413205" elapsed="0.001681"/>
 </kw>
 <kw name="Open Test Login Page" owner="Global">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-04-24T10:53:30.643849" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\8da0fa6c-fee1-4d3c-8bcc-20c62745d6d2"}</msg>
-<msg time="2025-04-24T10:53:30.675460" level="INFO">Starting Browser process C:\Users\t.limadebarros\Documents\robotframe_test\.venv\Lib\site-packages\Browser\wrapper\index.js using port 57912</msg>
-<msg time="2025-04-24T10:53:30.675731" level="INFO">Node startup parameters: ['node', 'C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js', '57912']</msg>
-<msg time="2025-04-24T10:53:31.597398" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\8da0fa6c-fee1-4d3c-8bcc-20c62745d6d2"}</msg>
+<msg time="2025-04-24T11:43:16.416151" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\75ee5c2b-54fb-4aba-9225-419de921f54b"}</msg>
+<msg time="2025-04-24T11:43:16.487187" level="INFO">Starting Browser process C:\Users\t.limadebarros\Documents\robotframe_test\.venv\Lib\site-packages\Browser\wrapper\index.js using port 59033</msg>
+<msg time="2025-04-24T11:43:16.487793" level="INFO">Node startup parameters: ['node', 'C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js', '59033']</msg>
+<msg time="2025-04-24T11:43:17.907974" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\traces\\temp\\75ee5c2b-54fb-4aba-9225-419de921f54b"}</msg>
 <arg>browser=${BROWSER}</arg>
 <arg>headless=${HEADLESS}</arg>
 <arg>timeout=${TIMEOUT}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.642653" elapsed="0.955558"/>
+<status status="PASS" start="2025-04-24T11:43:16.415302" elapsed="1.493386"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-04-24T10:53:35.013397" level="INFO">Successfully initialized new page object and opened url: https://aanvraag.test.digitaaltaxatierapport.nl</msg>
-<msg time="2025-04-24T10:53:35.014069" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-04-24T11:43:21.349397" level="INFO">Successfully initialized new page object and opened url: https://aanvraag.test.digitaaltaxatierapport.nl</msg>
+<msg time="2025-04-24T11:43:21.349806" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${BASE_URL_TEST}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-04-24T10:53:31.598721" elapsed="3.415866"/>
+<status status="PASS" start="2025-04-24T11:43:17.909156" elapsed="3.440991"/>
 </kw>
 <doc>Opent test omgeving in een nieuwe browsersessie.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.642432" elapsed="4.372498"/>
+<status status="PASS" start="2025-04-24T11:43:16.415035" elapsed="4.935290"/>
 </kw>
-<kw name="Cookies weigeren" owner="Global">
+<doc>Laadt de test-omgeving en opent de inlogpagina en weigert cookies.</doc>
+<status status="PASS" start="2025-04-24T11:43:16.403526" elapsed="4.946882"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-04-24T11:43:31.352700" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-04-24T11:43:21.351411" elapsed="10.001705"/>
+</kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-24T10:53:35.045328" level="INFO">Waited for Element with selector css=button &gt;&gt; text="Weigeren" at state visible</msg>
-<arg>css=button &gt;&gt; text="Weigeren"</arg>
+<msg time="2025-04-24T11:43:31.395682" level="INFO">Waited for Element with selector //h1[normalize-space()="Woningtaxatie aanvragen"] at state visible</msg>
+<arg>//h1[normalize-space()="Woningtaxatie aanvragen"]</arg>
 <arg>visible</arg>
+<arg>timeout=30s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.016274" elapsed="0.029342"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:35.046435" level="INFO">Clicks the element 'css=button &gt;&gt; text="Weigeren"'.</msg>
-<arg>css=button &gt;&gt; text="Weigeren"</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.045809" elapsed="0.039112"/>
-</kw>
-<doc>Behandelt cookie- en authenticatiepop-ups.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.015384" elapsed="0.069773"/>
-</kw>
-<doc>Laadt de test-omgeving en opent de inlogpagina en weigert cookies.</doc>
-<status status="PASS" start="2025-04-24T10:53:30.638769" elapsed="4.446484"/>
+<status status="PASS" start="2025-04-24T11:43:31.354329" elapsed="0.041713"/>
 </kw>
 <kw name="Woningtaxatie Aanvragen" owner="aanvraag_straat">
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.111717" level="INFO">Text: 'Woningtaxatie aanvragen'</msg>
+<msg time="2025-04-24T11:43:31.463953" level="INFO">Text: 'Woningtaxatie aanvragen'</msg>
 <arg>//h1[normalize-space()="Woningtaxatie aanvragen"]</arg>
 <arg>==</arg>
 <arg>Woningtaxatie aanvragen</arg>
@@ -97,10 +92,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.086879" elapsed="0.025203"/>
+<status status="PASS" start="2025-04-24T11:43:31.398133" elapsed="0.066105"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.130660" level="INFO">Text: 'Consument'</msg>
+<msg time="2025-04-24T11:43:31.486678" level="INFO">Text: 'Consument'</msg>
 <arg>//h6[normalize-space()="Consument"]</arg>
 <arg>==</arg>
 <arg>Consument</arg>
@@ -108,10 +103,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.112275" elapsed="0.018800"/>
+<status status="PASS" start="2025-04-24T11:43:31.464437" elapsed="0.022530"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.150514" level="INFO">Text: 'Taxateur'</msg>
+<msg time="2025-04-24T11:43:31.505456" level="INFO">Text: 'Taxateur'</msg>
 <arg>//h6[normalize-space()="Taxateur"]</arg>
 <arg>==</arg>
 <arg>Taxateur</arg>
@@ -119,10 +114,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.131282" elapsed="0.019573"/>
+<status status="PASS" start="2025-04-24T11:43:31.487161" elapsed="0.018725"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.168543" level="INFO">Text: 'Geldverstrekker'</msg>
+<msg time="2025-04-24T11:43:31.521296" level="INFO">Text: 'Geldverstrekker'</msg>
 <arg>//h6[normalize-space()="Geldverstrekker"]</arg>
 <arg>==</arg>
 <arg>Geldverstrekker</arg>
@@ -130,10 +125,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.151108" elapsed="0.017731"/>
+<status status="PASS" start="2025-04-24T11:43:31.506206" elapsed="0.015381"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.187427" level="INFO">Text: 'Tussenpersoon'</msg>
+<msg time="2025-04-24T11:43:31.539524" level="INFO">Text: 'Tussenpersoon'</msg>
 <arg>//h6[normalize-space()="Tussenpersoon"]</arg>
 <arg>==</arg>
 <arg>Tussenpersoon</arg>
@@ -141,10 +136,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.169052" elapsed="0.018806"/>
+<status status="PASS" start="2025-04-24T11:43:31.521802" elapsed="0.018005"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.198343" level="INFO">Text: 'Woningcorporatie'</msg>
+<msg time="2025-04-24T11:43:31.565543" level="INFO">Text: 'Woningcorporatie'</msg>
 <arg>//h6[normalize-space()="Woningcorporatie"]</arg>
 <arg>==</arg>
 <arg>Woningcorporatie</arg>
@@ -152,60 +147,60 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.188214" elapsed="0.010378"/>
+<status status="PASS" start="2025-04-24T11:43:31.540027" elapsed="0.025838"/>
 </kw>
 <doc>Verifieert de aanwezigheid van de elementen op de Woningtaxatie aanvragen pagina.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.086432" elapsed="0.112500"/>
+<status status="PASS" start="2025-04-24T11:43:31.397293" elapsed="0.168803"/>
 </kw>
 <kw name="Kies Ingang" owner="aanvraag_straat">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:35.200441" level="INFO">Clicks the element '//h6[normalize-space()="Tussenpersoon"]'.</msg>
+<msg time="2025-04-24T11:43:31.571053" level="INFO">Clicks the element '//h6[normalize-space()="Tussenpersoon"]'.</msg>
 <arg>//h6[normalize-space()="${ingang}"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.199977" elapsed="0.050001"/>
+<status status="PASS" start="2025-04-24T11:43:31.569927" elapsed="0.115197"/>
 </kw>
 <arg>Tussenpersoon</arg>
 <doc>Selecteert de ingang op basis van de opgegeven waarde.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.199517" elapsed="0.050695"/>
+<status status="PASS" start="2025-04-24T11:43:31.568924" elapsed="0.116721"/>
 </kw>
 <kw name="Vul Adresgegevens" owner="aanvraag_straat_keywords">
 <kw name="Postcode Huisnummer" owner="aanvraag_straat">
 <kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.253397" level="INFO">Types the text '5398JJ' in the given field.</msg>
+<msg time="2025-04-24T11:43:31.691360" level="INFO">Types the text '5398JJ' in the given field.</msg>
 <arg>//input[@id="searchPostcode"]</arg>
 <arg>${postcode}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.252871" elapsed="0.075197"/>
+<status status="PASS" start="2025-04-24T11:43:31.690048" elapsed="0.230000"/>
 </kw>
 <kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:35.328777" level="INFO">Types the text '57' in the given field.</msg>
+<msg time="2025-04-24T11:43:31.922820" level="INFO">Types the text '57' in the given field.</msg>
 <arg>//input[@id="searchHouseNumber"]</arg>
 <arg>${huisnummer}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.328285" elapsed="0.021439"/>
+<status status="PASS" start="2025-04-24T11:43:31.921120" elapsed="0.102250"/>
 </kw>
 <arg>${postcode}</arg>
 <arg>${huisnummer}</arg>
 <doc>Voert postcode en huisnummer in.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.252376" elapsed="0.097513"/>
+<status status="PASS" start="2025-04-24T11:43:31.689044" elapsed="0.334966"/>
 </kw>
 <kw name="Zoeken" owner="aanvraag_straat">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:35.350761" level="INFO">Clicks the element 'css=button &gt;&gt; text=Zoeken'.</msg>
+<msg time="2025-04-24T11:43:32.029792" level="INFO">Clicks the element 'css=button &gt;&gt; text=Zoeken'.</msg>
 <arg>css=button &gt;&gt; text=Zoeken</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.350385" elapsed="0.047090"/>
+<status status="PASS" start="2025-04-24T11:43:32.027991" elapsed="0.094265"/>
 </kw>
 <doc>Klikt op de knop "Zoeken".</doc>
-<status status="PASS" start="2025-04-24T10:53:35.350039" elapsed="0.047608"/>
+<status status="PASS" start="2025-04-24T11:43:32.025281" elapsed="0.097198"/>
 </kw>
 <kw name="Adres Selecteren Zonder Huisnummertoevoeging" owner="aanvraag_straat">
 <kw name="Hover" owner="Browser">
@@ -213,53 +208,53 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Moves the virtual mouse and scrolls to the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.398213" elapsed="0.876338"/>
+<status status="PASS" start="2025-04-24T11:43:32.123157" elapsed="0.915151"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.275609" level="INFO">Clicks the element '//span[normalize-space()="Provincialeweg 57"]'.</msg>
+<msg time="2025-04-24T11:43:33.039606" level="INFO">Clicks the element '//span[normalize-space()="Provincialeweg 57"]'.</msg>
 <arg>//span[normalize-space()="${straat} ${huisnummer}"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.274867" elapsed="0.042755"/>
+<status status="PASS" start="2025-04-24T11:43:33.038701" elapsed="0.044492"/>
 </kw>
 <kw name="Hover" owner="Browser">
 <arg>css=button &gt;&gt; text=Selecteer</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Moves the virtual mouse and scrolls to the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.318047" elapsed="0.056291"/>
+<status status="PASS" start="2025-04-24T11:43:33.083433" elapsed="0.053822"/>
 </kw>
 <arg>${straatnaam}</arg>
 <arg>${huisnummer}</arg>
 <doc>Selecteert een adres zonder huisnummertoevoeging.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.397802" elapsed="0.976711"/>
+<status status="PASS" start="2025-04-24T11:43:32.122669" elapsed="1.014831"/>
 </kw>
 <arg>5398JJ</arg>
 <arg>57</arg>
 <arg>Provincialeweg</arg>
 <doc>Vul de adresgegevens in.</doc>
-<status status="PASS" start="2025-04-24T10:53:35.251367" elapsed="1.123229"/>
+<status status="PASS" start="2025-04-24T11:43:31.687738" elapsed="1.449891"/>
 </kw>
 <kw name="Selecteer Adres" owner="aanvraag_straat_keywords">
 <kw name="Selecteer" owner="aanvraag_straat">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.376275" level="INFO">Clicks the element 'css=button &gt;&gt; text=Selecteer'.</msg>
+<msg time="2025-04-24T11:43:33.139999" level="INFO">Clicks the element 'css=button &gt;&gt; text=Selecteer'.</msg>
 <arg>css=button &gt;&gt; text=Selecteer</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.375908" elapsed="0.048069"/>
+<status status="PASS" start="2025-04-24T11:43:33.139401" elapsed="0.119161"/>
 </kw>
 <doc>Klikt op de knop "Selecteer".</doc>
-<status status="PASS" start="2025-04-24T10:53:36.375647" elapsed="0.049130"/>
+<status status="PASS" start="2025-04-24T11:43:33.138934" elapsed="0.120024"/>
 </kw>
-<status status="PASS" start="2025-04-24T10:53:36.375254" elapsed="0.049633"/>
+<status status="PASS" start="2025-04-24T11:43:33.138392" elapsed="0.120832"/>
 </kw>
 <kw name="Vul Bouwgegevens" owner="aanvraag_straat_keywords">
 <kw name="Soort Bouw" owner="aanvraag_straat">
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:36.475355" level="INFO">Text: 'Om welk type bouw gaat het?'</msg>
+<msg time="2025-04-24T11:43:33.607293" level="INFO">Text: 'Om welk type bouw gaat het?'</msg>
 <arg>//h2[normalize-space()="Om welk type bouw gaat het?"]</arg>
 <arg>==</arg>
 <arg>Om welk type bouw gaat het?</arg>
@@ -267,40 +262,40 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.427481" elapsed="0.049033"/>
+<status status="PASS" start="2025-04-24T11:43:33.267484" elapsed="0.340690"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.478454" level="INFO">Clicks the element '//label[normalize-space()="Bestaande bouw"]'.</msg>
+<msg time="2025-04-24T11:43:33.614851" level="INFO">Clicks the element '//label[normalize-space()="Bestaande bouw"]'.</msg>
 <arg>//label[normalize-space()="${soortbouw}"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.477378" elapsed="0.040090"/>
+<status status="PASS" start="2025-04-24T11:43:33.609895" elapsed="0.130598"/>
 </kw>
 <arg>${soort_bouw}</arg>
 <doc>Selecteert het type bouw.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.426856" elapsed="0.090799"/>
+<status status="PASS" start="2025-04-24T11:43:33.266574" elapsed="0.474515"/>
 </kw>
 <kw name="Volgende" owner="aanvraag_straat">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.519164" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
+<msg time="2025-04-24T11:43:33.749715" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
 <arg>css=button &gt;&gt; text=Volgende</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.518603" elapsed="0.055450"/>
+<status status="PASS" start="2025-04-24T11:43:33.746301" elapsed="0.177890"/>
 </kw>
 <doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:36.518094" elapsed="0.056118"/>
+<status status="PASS" start="2025-04-24T11:43:33.743011" elapsed="0.182064"/>
 </kw>
 <arg>Bestaande bouw</arg>
 <doc>Vul de bouwgegevens in.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.425737" elapsed="0.148542"/>
+<status status="PASS" start="2025-04-24T11:43:33.261653" elapsed="0.663720"/>
 </kw>
 <kw name="Vul Doelgegevens" owner="aanvraag_straat_keywords">
 <kw name="Doel" owner="aanvraag_straat">
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:36.620389" level="INFO">Text: 'Doel van taxatie'</msg>
+<msg time="2025-04-24T11:43:34.086637" level="INFO">Text: 'Doel van taxatie'</msg>
 <arg>//h2[normalize-space()="Doel van taxatie"]</arg>
 <arg>==</arg>
 <arg>Doel van taxatie</arg>
@@ -308,16 +303,16 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.575538" elapsed="0.045138"/>
+<status status="PASS" start="2025-04-24T11:43:33.935293" elapsed="0.152165"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.624151" level="INFO">Clicks the element '//label[contains(text(),"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)")]'.</msg>
+<msg time="2025-04-24T11:43:34.094692" level="INFO">Clicks the element '//label[contains(text(),"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)")]'.</msg>
 <arg>//label[contains(text(),"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)")]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.622468" elapsed="0.047103"/>
+<status status="PASS" start="2025-04-24T11:43:34.091015" elapsed="0.071109"/>
 </kw>
 <arg>'${doel}' == 'Financiering'</arg>
 <arg>Click</arg>
@@ -338,32 +333,32 @@
 <arg>Fail</arg>
 <arg>"Invalid doel value: ${doel}"</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.620919" elapsed="0.048834"/>
+<status status="PASS" start="2025-04-24T11:43:34.089173" elapsed="0.073347"/>
 </kw>
 <arg>${doel}</arg>
 <doc>Selecteert het doel van de taxatie.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.575293" elapsed="0.094693"/>
+<status status="PASS" start="2025-04-24T11:43:33.931712" elapsed="0.231270"/>
 </kw>
 <kw name="Volgende" owner="aanvraag_straat">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.671021" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
+<msg time="2025-04-24T11:43:34.164734" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
 <arg>css=button &gt;&gt; text=Volgende</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.670574" elapsed="0.053928"/>
+<status status="PASS" start="2025-04-24T11:43:34.163991" elapsed="0.064635"/>
 </kw>
 <doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:36.670166" elapsed="0.054614"/>
+<status status="PASS" start="2025-04-24T11:43:34.163315" elapsed="0.065795"/>
 </kw>
 <arg>Gedwongen Verkoop</arg>
 <doc>Vul het doel van de aanvraag in.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.574912" elapsed="0.149996"/>
+<status status="PASS" start="2025-04-24T11:43:33.927936" elapsed="0.301400"/>
 </kw>
 <kw name="Vul Tussenpersoongegevens" owner="aanvraag_straat_keywords">
 <kw name="Tussenpersoon" owner="aanvraag_straat">
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:36.843809" level="INFO">Text: 'Tussenpersoon'</msg>
+<msg time="2025-04-24T11:43:34.578615" level="INFO">Text: 'Tussenpersoon'</msg>
 <arg>//h2[normalize-space()="Tussenpersoon"]</arg>
 <arg>==</arg>
 <arg>Tussenpersoon</arg>
@@ -371,541 +366,115 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.726508" elapsed="0.117536"/>
+<status status="PASS" start="2025-04-24T11:43:34.234170" elapsed="0.344789"/>
 </kw>
-<status status="PASS" start="2025-04-24T10:53:36.726260" elapsed="0.117937"/>
+<status status="PASS" start="2025-04-24T11:43:34.233265" elapsed="0.345933"/>
 </kw>
 <kw name="Opvoeren Tekst Combobox" owner="aanvraag_straat">
 <kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:36.845494" level="INFO">Types the text 'Redert Advies' in the given field.</msg>
+<msg time="2025-04-24T11:43:34.582446" level="INFO">Types the text 'Redert Advies' in the given field.</msg>
 <arg>css=[id^="headlessui-combobox-input-:"]</arg>
 <arg>${comboboxtekst}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.845022" elapsed="0.059471"/>
+<status status="PASS" start="2025-04-24T11:43:34.581338" elapsed="0.103849"/>
 </kw>
 <arg>${tussenpersoon}</arg>
-<status status="PASS" start="2025-04-24T10:53:36.844342" elapsed="0.060346"/>
+<status status="PASS" start="2025-04-24T11:43:34.579405" elapsed="0.106157"/>
 </kw>
 <kw name="Bevestig Keuze Combobox" owner="aanvraag_straat">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:36.905837" level="INFO">Clicks the element 'css=[id^="headlessui-combobox-option-:"]'.</msg>
+<msg time="2025-04-24T11:43:34.687202" level="INFO">Clicks the element 'css=[id^="headlessui-combobox-option-:"]'.</msg>
+<msg time="2025-04-24T11:43:44.860221" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-04-24T11:43:44.860561" level="INFO">See also file:///C:/Users/t.limadebarros/Documents/robotframe_test/results/playwright-log.txt for additional details.</msg>
+<msg time="2025-04-24T11:43:44.861476" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+</msg>
 <arg>css=[id^="headlessui-combobox-option-:"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:36.905394" elapsed="1.910869"/>
+<status status="FAIL" start="2025-04-24T11:43:34.686488" elapsed="10.365864">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+</status>
 </kw>
-<status status="PASS" start="2025-04-24T10:53:36.904869" elapsed="1.911575"/>
+<status status="FAIL" start="2025-04-24T11:43:34.685866" elapsed="10.367320">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+</status>
 </kw>
 <kw name="Volgende" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:38.817616" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:38.817219" elapsed="0.051923"/>
-</kw>
 <doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:38.816613" elapsed="0.052711"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.054071" elapsed="0.000605"/>
 </kw>
 <arg>Redert Advies</arg>
-<status status="PASS" start="2025-04-24T10:53:36.725780" elapsed="2.143636"/>
+<status status="FAIL" start="2025-04-24T11:43:34.232122" elapsed="10.823002">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+</status>
 </kw>
 <kw name="Vul Geldverstrekkergegevens" owner="aanvraag_straat_keywords">
-<kw name="Geldverstrekker Opvoeren" owner="aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:38.924966" level="INFO">Text: 'Selecteer een geldverstrekker'</msg>
-<arg>//label[normalize-space()="Selecteer een geldverstrekker"]</arg>
-<arg>==</arg>
-<arg>Selecteer een geldverstrekker</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:38.870814" elapsed="0.055384"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:38.870534" elapsed="0.055966"/>
-</kw>
-<kw name="Opvoeren Tekst Combobox" owner="aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:38.928861" level="INFO">Types the text 'AEGON Bijzonder Beheer' in the given field.</msg>
-<arg>css=[id^="headlessui-combobox-input-:"]</arg>
-<arg>${comboboxtekst}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:38.927492" elapsed="0.853526"/>
-</kw>
-<arg>${geldverstrekker}</arg>
-<status status="PASS" start="2025-04-24T10:53:38.926669" elapsed="0.854519"/>
-</kw>
-<kw name="Bevestig Keuze Combobox" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:39.782059" level="INFO">Clicks the element 'css=[id^="headlessui-combobox-option-:"]'.</msg>
-<arg>css=[id^="headlessui-combobox-option-:"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:39.781699" elapsed="0.051942"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:39.781347" elapsed="0.052450"/>
-</kw>
-<kw name="Volgende" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:39.834648" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:39.834301" elapsed="0.048385"/>
-</kw>
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:39.833942" elapsed="0.048917"/>
-</kw>
 <arg>AEGON Bijzonder Beheer</arg>
-<status status="PASS" start="2025-04-24T10:53:38.870023" elapsed="1.012914"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.056181" elapsed="0.000324"/>
 </kw>
 <kw name="Vul Opdrachtgever Relatie" owner="aanvraag_straat_keywords">
-<kw name="Opdrachtgever Relatie" owner="aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:40.010477" level="INFO">Text: 'Gegevens contactpersoon'</msg>
-<arg>//h3[normalize-space()="Gegevens contactpersoon"]</arg>
-<arg>==</arg>
-<arg>Gegevens contactpersoon</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:39.884223" elapsed="0.126687"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:39.884003" elapsed="0.127116"/>
-</kw>
-<kw name="Volgende" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:40.012620" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.012047" elapsed="0.026831"/>
-</kw>
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:40.011325" elapsed="0.027921"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:39.883635" elapsed="0.155798"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.057359" elapsed="0.000337"/>
 </kw>
 <kw name="Vul Opdrachtvoorwaarden" owner="aanvraag_straat_keywords">
-<kw name="Opdrachtvoorwaarden Vullen Anders" owner="aanvraag_straat">
-<kw name="Generate Random String" owner="Global">
-<kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-04-24T10:53:40.043195" level="INFO">${random_string} = l4l0YtJS</msg>
-<var>${random_string}</var>
-<arg>''.join(random.choices(string.ascii_letters + string.digits, k=${length}))</arg>
-<arg>modules=random,string</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.042838" elapsed="0.000584"/>
-</kw>
-<return>
-<value>${random_string}</value>
-<status status="PASS" start="2025-04-24T10:53:40.043537" elapsed="0.000125"/>
-</return>
-<msg time="2025-04-24T10:53:40.043780" level="INFO">${my_random_string} = l4l0YtJS</msg>
-<var>${my_random_string}</var>
-<doc>Genereert een willekeurige tekenreeks van een opgegeven lengte.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.042597" elapsed="0.001456"/>
-</kw>
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:40.044706" level="INFO">Types the text 'Bijzonderbeheerrapport ref l4l0YtJS' in the given field.</msg>
-<arg>//input[@id="referenceRequest"]</arg>
-<arg>${referentietekst} ${my_random_string}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.044190" elapsed="0.266403"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:40.311453" level="INFO">Clicks the element '//label[contains(text(),"niet bekend is wie de woning hoe gebruikt.")]'.</msg>
-<arg>//label[contains(text(),"${huidig_gebruik}")]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.310830" elapsed="0.041936"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:40.353848" level="INFO">Clicks the element '//label[contains(text(),"anders, namelijk:")]'.</msg>
-<arg>//label[contains(text(),"${toekomstig_gebruik}")]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.352999" elapsed="0.055030"/>
-</kw>
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:40.408822" level="INFO">Types the text 'waarschijnlijk naar de veiling brengen' in the given field.</msg>
-<arg>//textarea[@id="futureSituationExplanation"]</arg>
-<arg>${futureSituationExplanation}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.408284" elapsed="0.189670"/>
-</kw>
-<arg>Bijzonderbeheerrapport ref</arg>
-<arg>niet bekend is wie de woning hoe gebruikt.</arg>
-<arg>anders, namelijk:</arg>
-<arg>waarschijnlijk naar de veiling brengen</arg>
-<status status="PASS" start="2025-04-24T10:53:40.041792" elapsed="0.556355"/>
-</kw>
-<kw name="Huurovereenkomst" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:40.599065" level="INFO">Clicks the element '//label[normalize-space()="Nee"]'.</msg>
-<arg>//label[normalize-space()="${huurovereenkomst}"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.598676" elapsed="0.052989"/>
-</kw>
-<arg>Nee</arg>
-<status status="PASS" start="2025-04-24T10:53:40.598306" elapsed="0.053549"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:40.040823" elapsed="0.611115"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.058258" elapsed="0.000288"/>
 </kw>
 <kw name="Vul Waardepeildatum" owner="aanvraag_straat_keywords">
-<kw name="Selecteer Waardepeildatum" owner="aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:40.653411" level="INFO">Types the text '01-04-2025' in the given field.</msg>
-<arg>//input[@placeholder="Selecteer een datum"]</arg>
-<arg>${Waardepeildatum}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.652954" elapsed="0.168709"/>
-</kw>
-<arg>${datum}</arg>
-<status status="PASS" start="2025-04-24T10:53:40.652650" elapsed="0.169213"/>
-</kw>
 <arg>01-04-2025</arg>
-<status status="PASS" start="2025-04-24T10:53:40.652255" elapsed="0.169688"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.059003" elapsed="0.000228"/>
 </kw>
 <kw name="Vul Vervolg Opdrachtvoorwaarden" owner="aanvraag_straat_keywords">
-<kw name="Vullen Opdrachtvoorwaarden Vervolg" owner="aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:40.824541" level="INFO">Types the text 'Geen aanvullende afspraken' in the given field.</msg>
-<arg>//textarea[@id="additionalAppointments"]</arg>
-<arg>${Specifiek_afspraken}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:40.824001" elapsed="0.231986"/>
-</kw>
-<arg>${aanvullende_afspraken}</arg>
-<status status="PASS" start="2025-04-24T10:53:40.823588" elapsed="0.232735"/>
-</kw>
-<kw name="Opdrachtvoorwaarden Vervolg Bemiddelingskosten" owner="aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.069429" level="INFO">Text: 'Bemiddelingskosten:'</msg>
-<arg>//label[normalize-space()="Bemiddelingskosten:"]</arg>
-<arg>==</arg>
-<arg>Bemiddelingskosten:</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.056853" elapsed="0.012906"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.081024" level="INFO">Text: "Vul de met de taxateur afgesproken bemiddelingskosten voor de taxatie in of vul '0' in indien u hiervoor geen bemiddelingskosten in rekening brengt bij de taxateur."</msg>
-<arg>//small[@class="text-slateGray"]</arg>
-<arg>==</arg>
-<arg>Vul de met de taxateur afgesproken bemiddelingskosten voor de taxatie in of vul '0' in indien u hiervoor geen bemiddelingskosten in rekening brengt bij de taxateur.</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.069991" elapsed="0.011374"/>
-</kw>
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.082128" level="INFO">Types the text '0' in the given field.</msg>
-<arg>//input[@name="costMediation"]</arg>
-<arg>${costMediation}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.081546" elapsed="0.021031"/>
-</kw>
-<arg>${bemiddelingskosten}</arg>
-<status status="PASS" start="2025-04-24T10:53:41.056484" elapsed="0.046261"/>
-</kw>
-<kw name="Opdrachtvoorwaarden Vervolg Kosten" owner="aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.103939" level="INFO">Types the text '561,99' in the given field.</msg>
-<arg>//input[contains(@name,"costAppraiser")]</arg>
-<arg>${costAppraiser}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.103399" elapsed="0.059731"/>
-</kw>
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.164011" level="INFO">Types the text '89,49' in the given field.</msg>
-<arg>//input[@name="costOther"]</arg>
-<arg>${costOther}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.163399" elapsed="0.044807"/>
-</kw>
-<arg>${kosten}</arg>
-<arg>${btw}</arg>
-<status status="PASS" start="2025-04-24T10:53:41.102894" elapsed="0.105616"/>
-</kw>
-<kw name="Volgende" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:41.209598" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.209193" elapsed="0.071273"/>
-</kw>
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:41.208739" elapsed="0.071957"/>
-</kw>
 <arg>Geen aanvullende afspraken</arg>
 <arg>0</arg>
 <arg>561,99</arg>
 <arg>89,49</arg>
-<status status="PASS" start="2025-04-24T10:53:40.822831" elapsed="0.457937"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.059721" elapsed="0.000241"/>
 </kw>
 <kw name="Vul Taxateurgegevens" owner="aanvraag_straat_keywords">
-<kw name="Taxateur Opvoeren Lokaal" owner="aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.407147" level="INFO">Text: 'Indien het taxatiebedrijf van uw voorkeur hier niet is vermeld, heeft dat één van de volgende redenen:'</msg>
-<arg>//p[contains(text(),"Indien het taxatiebedrijf van uw voorkeur hier niet is vermeld, heeft dat één van de volgende redenen:")]</arg>
-<arg>==</arg>
-<arg>Indien het taxatiebedrijf van uw voorkeur hier niet is vermeld, heeft dat één van de volgende redenen:</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.282018" elapsed="0.125743"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.419350" level="INFO">Text: 'Er is geen enkele taxateur van dit bedrijf aangesloten bij het NWWI'</msg>
-<arg>//li[contains(text(),"Er is geen enkele taxateur van dit bedrijf aangesloten bij het NWWI")]</arg>
-<arg>==</arg>
-<arg>Er is geen enkele taxateur van dit bedrijf aangesloten bij het NWWI</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.408018" elapsed="0.011755"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.430626" level="INFO">Text: 'Er is wel een taxateur via dit bedrijf aangesloten, maar deze mag het betreffende object niet voor de gekozen geldverstrekker taxeren.'</msg>
-<arg>//li[contains(text(),"Er is wel een taxateur via dit bedrijf aangesloten, maar deze mag het betreffende object niet voor de gekozen geldverstrekker taxeren.")]</arg>
-<arg>==</arg>
-<arg>Er is wel een taxateur via dit bedrijf aangesloten, maar deze mag het betreffende object niet voor de gekozen geldverstrekker taxeren.</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.420010" elapsed="0.010918"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.444241" level="INFO">Text: 'Alle bij het NWWI aangesloten taxateurs van dit taxatiebedrijf hebben aangegeven niet aanwezig te zijn.'</msg>
-<arg>//li[contains(text(),"Alle bij het NWWI aangesloten taxateurs van dit taxatiebedrijf hebben aangegeven niet aanwezig te zijn.")]</arg>
-<arg>==</arg>
-<arg>Alle bij het NWWI aangesloten taxateurs van dit taxatiebedrijf hebben aangegeven niet aanwezig te zijn.</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.431120" elapsed="0.013394"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:41.445149" level="INFO">Clicks the element '(//label[contains(text(),'Ik wil lokaal zoeken naar een taxatiebedrijf in de buurt van het te taxeren object.')])[1]'.</msg>
-<arg>(//label[contains(text(),'Ik wil lokaal zoeken naar een taxatiebedrijf in de buurt van het te taxeren object.')])[1]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.444694" elapsed="0.021259"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:41.281789" elapsed="0.184324"/>
-</kw>
-<kw name="Opvoeren Tekst Combobox" owner="aanvraag_straat">
-<kw name="Type Text" owner="Browser">
-<msg time="2025-04-24T10:53:41.467017" level="INFO">Types the text 'NWWI Test Kantoor' in the given field.</msg>
-<arg>css=[id^="headlessui-combobox-input-:"]</arg>
-<arg>${comboboxtekst}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:41.466643" elapsed="2.157824"/>
-</kw>
-<arg>${taxateur}</arg>
-<status status="PASS" start="2025-04-24T10:53:41.466264" elapsed="2.158550"/>
-</kw>
-<kw name="Bevestig Keuze Combobox" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:43.626060" level="INFO">Clicks the element 'css=[id^="headlessui-combobox-option-:"]'.</msg>
-<arg>css=[id^="headlessui-combobox-option-:"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.625639" elapsed="0.040636"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:43.625083" elapsed="0.041357"/>
-</kw>
-<kw name="Volgende" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:43.667285" level="INFO">Clicks the element 'css=button &gt;&gt; text=Volgende'.</msg>
-<arg>css=button &gt;&gt; text=Volgende</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.666937" elapsed="0.055852"/>
-</kw>
-<doc>Klikt op de knop "Volgende".</doc>
-<status status="PASS" start="2025-04-24T10:53:43.666593" elapsed="0.056537"/>
-</kw>
 <arg>NWWI Test Kantoor</arg>
-<status status="PASS" start="2025-04-24T10:53:41.281346" elapsed="2.441964"/>
+<status status="NOT RUN" start="2025-04-24T11:43:45.060539" elapsed="0.000438"/>
 </kw>
 <kw name="Controleer En Verstuur Aanvraag" owner="aanvraag_straat_keywords">
-<kw name="Overzicht Aanvraag" owner="aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:43.829784" level="INFO">Text: 'Adresgegevens object'</msg>
-<arg>//h5[normalize-space()="Adresgegevens object"]</arg>
-<arg>==</arg>
-<arg>Adresgegevens object</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
+<status status="NOT RUN" start="2025-04-24T11:43:45.061543" elapsed="0.000161"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
+<msg time="2025-04-24T11:43:45.175399" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.725967" elapsed="0.104178"/>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-04-24T11:43:45.062784" elapsed="0.113077"/>
 </kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:43.843555" level="INFO">Text: 'Gegevens opdrachtgever'</msg>
-<arg>(//h5[@class='nwwi-text-russianViolet'][contains(text(),'Gegevens')])[1]</arg>
-<arg>==</arg>
-<arg>Gegevens opdrachtgever</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.830378" elapsed="0.013415"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:43.858740" level="INFO">Text: 'Gegevens taxatiebedrijf'</msg>
-<arg>//h5[normalize-space()="Gegevens taxatiebedrijf"]</arg>
-<arg>==</arg>
-<arg>Gegevens taxatiebedrijf</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.843971" elapsed="0.015031"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:43.725631" elapsed="0.133502"/>
-</kw>
-<kw name="Akkoord Voorwaarden" owner="aanvraag_straat">
-<kw name="Scroll To Element" owner="Browser">
-<arg>//label[@for="acceptAgreement"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>This method waits for actionability checks, then tries to scroll element into view,
-unless it is completely visible.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.859747" elapsed="0.030364"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:43.890833" level="INFO">Clicks the element '(//label[@for='acceptAgreement'])[1]'.</msg>
-<arg>(//label[@for='${accepteer_voorwaarden}'])[1]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.890325" elapsed="0.044568"/>
-</kw>
-<arg>acceptAgreement</arg>
-<doc>Accepteert de voorwaarden.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.859276" elapsed="0.075824"/>
-</kw>
-<kw name="Verzenden" owner="aanvraag_straat">
-<kw name="Click" owner="Browser">
-<msg time="2025-04-24T10:53:43.935976" level="INFO">Clicks the element 'css=button &gt;&gt; text=Verzenden'.</msg>
-<arg>css=button &gt;&gt; text=Verzenden</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.935612" elapsed="0.050109"/>
-</kw>
-<doc>Klikt op de knop "Verzenden".</doc>
-<status status="PASS" start="2025-04-24T10:53:43.935259" elapsed="0.050640"/>
-</kw>
-<kw name="Bedankt" owner="aanvraag_straat">
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:45.336518" level="INFO">Text: 'Bedankt voor uw aanvraag'</msg>
-<arg>//h1[normalize-space()="Bedankt voor uw aanvraag"]</arg>
-<arg>==</arg>
-<arg>Bedankt voor uw aanvraag</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.986415" elapsed="1.350501"/>
-</kw>
-<kw name="Get Text" owner="Browser">
-<msg time="2025-04-24T10:53:45.347323" level="INFO">Text: 'Uw aanvraagnummer is: 4000906'</msg>
-<msg time="2025-04-24T10:53:45.347602" level="INFO">${attr} = Uw aanvraagnummer is: 4000906</msg>
-<var>${attr}</var>
-<arg>//h2[contains(text(),"Uw aanvraagnummer is:")]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-24T10:53:45.337169" elapsed="0.010657"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-04-24T10:53:45.348292" level="INFO">Uw aanvraagnummer is: 4000906</msg>
-<arg>${attr}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-04-24T10:53:45.348013" elapsed="0.000467"/>
-</kw>
-<doc>Controleert de "Bedankt" pagina.</doc>
-<status status="PASS" start="2025-04-24T10:53:43.986064" elapsed="1.362509"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:43.724830" elapsed="1.623804"/>
-</kw>
-<kw name="Tear Down Environment" owner="Global" type="TEARDOWN">
-<kw name="Close Browser" owner="Browser">
-<msg time="2025-04-24T10:53:45.497962" level="INFO">Closed browser</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-04-24T10:53:45.349371" elapsed="0.148915"/>
-</kw>
-<doc>Sluit de browser en verwijdert de omgevingsvariabelen.</doc>
-<status status="PASS" start="2025-04-24T10:53:45.349034" elapsed="0.149432"/>
-</kw>
-<status status="PASS" start="2025-04-24T10:53:30.637831" elapsed="14.861428"/>
+<msg time="2025-04-24T11:43:45.181450" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-04-24T11:43:45.201479" level="INFO">Switching context to context=74b9527c-d143-40e7-98c0-1ae51de6229e in CURRENT</msg>
+<msg time="2025-04-24T11:43:45.210841" level="INFO">Successfully changed active context: context=74b9527c-d143-40e7-98c0-1ae51de6229e</msg>
+<msg time="2025-04-24T11:43:45.226374" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2025-04-24T11:43:16.394656" elapsed="28.781994">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('[id^="headlessui-combobox-option-:"]').first()
+</status>
 </test>
-<status status="PASS" start="2025-04-24T10:53:30.398480" elapsed="15.125740"/>
+<status status="FAIL" start="2025-04-24T11:43:16.088651" elapsed="29.143441"/>
 </suite>
-<status status="PASS" start="2025-04-24T10:53:30.396388" elapsed="15.159914"/>
+<status status="FAIL" start="2025-04-24T11:43:16.083297" elapsed="29.165455"/>
 </suite>
-<status status="PASS" start="2025-04-24T10:53:30.377125" elapsed="15.181430"/>
+<status status="FAIL" start="2025-04-24T11:43:16.060556" elapsed="29.193295"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Robotframe Test" id="s1" pass="1" fail="0" skip="0">Robotframe Test</stat>
-<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Robotframe Test.Tests</stat>
-<stat name="Aanvraag Bijzonder Beheer" id="s1-s1-s1" pass="1" fail="0" skip="0">Robotframe Test.Tests.Aanvraag Bijzonder Beheer</stat>
+<stat name="Robotframe Test" id="s1" pass="0" fail="1" skip="0">Robotframe Test</stat>
+<stat name="Tests" id="s1-s1" pass="0" fail="1" skip="0">Robotframe Test.Tests</stat>
+<stat name="Aanvraag Bijzonder Beheer" id="s1-s1-s1" pass="0" fail="1" skip="0">Robotframe Test.Tests.Aanvraag Bijzonder Beheer</stat>
 </suite>
 </statistics>
 <errors>
