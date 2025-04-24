@@ -50,10 +50,10 @@ jobs:
 
       - name: Run tests
         run: |
-          robot --outputdir results --loglevel TRACE tests/
+          robot --outputdir results/ tests/
 
       - name: Upload test results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: robot-results
