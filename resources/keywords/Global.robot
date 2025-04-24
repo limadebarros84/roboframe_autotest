@@ -9,7 +9,7 @@ ${BASE_URL_ACC}       https://betatest.acc.taxatieweb.nl/inloggen
 ${BASE_URL_TEST}      https://aanvraag.test.digitaaltaxatierapport.nl
 ${LOGIN_URL}          ${EMPTY}  # Wordt geladen uit .env
 ${PASSWORD}           ${EMPTY}  # Wordt geladen uit .env
-${HEADLESS}           true
+${HEADLESS}           false
 ${TIMEOUT}            0:00:30
 
 *** Keywords ***
@@ -23,7 +23,6 @@ Setup Test Environment
 Open Test Login Page
     [Documentation]    Opent test omgeving in een nieuwe browsersessie.
     New Browser    browser=${BROWSER}    headless=${HEADLESS}    timeout=${TIMEOUT}
-    Add Cookie    name=_hjSessionUser_2983622    value=eyJpZCI6ImM0ZmNkNDU3LTk2YmItNTQ4YS04ZjQ0LTg0YjkzZTc1YmU2ZCIsImNyZWF0ZWQiOjE3NDM0MTMzMzIxNTcsImV4aXN0aW5nIjp0cnVlfQ== 
     New Page       ${BASE_URL_TEST}
 
 Cookies weigeren
