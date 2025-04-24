@@ -10,7 +10,7 @@ ${BASE_URL_ACC}       https://betatest.acc.taxatieweb.nl/inloggen
 ${BASE_URL_TEST}      https://aanvraag.acc.nwwi.nl/
 ${LOGIN_URL}          ${EMPTY}  # Wordt geladen uit .env
 ${PASSWORD}           ${EMPTY}  # Wordt geladen uit .env
-${HEADLESS}           false
+${HEADLESS}           true
 ${TIMEOUT}            0:00:30
 
 *** Keywords ***
