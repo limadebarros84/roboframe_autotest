@@ -42,7 +42,7 @@ jobs:
           robot --outputdir results/ tests/
 
       # Upload Robot Framework test results
-      - name: Upload test results and screenshots
+      - name: Upload test results
         uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -51,4 +51,10 @@ jobs:
             results/output.xml
             results/log.html
             results/report.html
-            results/*.png
+
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots
+          path: results/*.png
