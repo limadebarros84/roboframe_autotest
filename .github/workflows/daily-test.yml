@@ -14,9 +14,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # Log Public IP Address
       - name: Log Public IP Address
         run: |
-          curl https://ifconfig.me
+          echo "Public IP Address: $(curl https://ifconfig.me)"
+
+      # Log Custom IP Address
+      - name: Log Custom IP Address
+        run: |
+          echo "Custom IP Address: $MY_IP_ADDRESS"
+        env:
+          MY_IP_ADDRESS: ${{ secrets.MY_IP_ADDRESS }}
 
       # Set up Python
       - name: Set up Python
