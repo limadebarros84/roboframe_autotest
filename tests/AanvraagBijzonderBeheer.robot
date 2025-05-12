@@ -1,14 +1,14 @@
 *** Settings ***
-Resource         ../resources/keywords/Global.robot
-Resource         ../resources/keywords/aanvraag_straat_keywords.resource
+Resource         ../resources/Global.robot
+Resource         ../resources/keywords/AanvraagStraatKeywords.resource
 Test Setup       Setup Test Environment
 Test Teardown    Teardown Environment  
 
 *** Test Cases ***
 Aanvraag gedwongen verkoop via intermediairsingang
     [Teardown]    Take Screenshot
-    Woningtaxatie Aanvragen
-    Kies Ingang    Tussenpersoon
+    Ga naar de aanvraag pagina
+    Kies aanvraag    Tussenpersoon
     Vul Adresgegevens    5398JJ    57    Provincialeweg
     Selecteer Adres
     Vul Bouwgegevens    Bestaande bouw

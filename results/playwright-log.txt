@@ -1,97 +1,100 @@
-{"level":30,"time":"2025-04-24T09:43:17.125Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Listening on 59033"}
-(node:14196) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-05-12T05:27:56.459Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Listening on 61990"}
+(node:25400) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-04-24T09:43:17.707Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-24T09:43:17.903Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
-{"level":30,"time":"2025-04-24T09:43:17.904Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-04-24T09:43:17.904Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-04-24T09:43:17.912Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-24T09:43:17.912Z","pid":14196,"hostname":"NWWI-ICT261","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-24T09:43:17.925Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Changed active context"}
-{"level":30,"time":"2025-04-24T09:43:18.016Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-24T09:43:18.017Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Changed active page"}
-{"level":30,"time":"2025-04-24T09:43:21.346Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-24T09:43:31.355Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-24T09:43:31.356Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h1[normalize-space()=\"Woningtaxatie aanvragen\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.390Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-24T09:43:31.402Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.402Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h1[normalize-space()=\"Woningtaxatie aanvragen\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.461Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h1[normalize-space()=\"Woningtaxatie aanvragen\"] containing Woningtaxatie aanvragen"}
-{"level":30,"time":"2025-04-24T09:43:31.461Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.464Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.464Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Consument\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.484Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Consument\"] containing Consument"}
-{"level":30,"time":"2025-04-24T09:43:31.484Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.487Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.487Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Taxateur\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.502Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Taxateur\"] containing Taxateur"}
-{"level":30,"time":"2025-04-24T09:43:31.502Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.508Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.508Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Geldverstrekker\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.518Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Geldverstrekker\"] containing Geldverstrekker"}
-{"level":30,"time":"2025-04-24T09:43:31.518Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.522Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.522Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Tussenpersoon\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.536Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Tussenpersoon\"] containing Tussenpersoon"}
-{"level":30,"time":"2025-04-24T09:43:31.536Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.540Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.540Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Woningcorporatie\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.560Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Woningcorporatie\"] containing Woningcorporatie"}
-{"level":30,"time":"2025-04-24T09:43:31.561Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:31.575Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:31.576Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Tussenpersoon\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.680Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:31.698Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-24T09:43:31.699Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //input[@id=\"searchPostcode\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:31.914Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-24T09:43:31.925Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-24T09:43:31.926Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //input[@id=\"searchHouseNumber\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:32.019Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-24T09:43:32.033Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:32.033Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Zoeken in page."}
-{"level":30,"time":"2025-04-24T09:43:32.119Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:32.126Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method hover"}
-{"level":30,"time":"2025-04-24T09:43:32.127Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //span[normalize-space()=\"Provincialeweg 57\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:33.035Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method hover"}
-{"level":30,"time":"2025-04-24T09:43:33.040Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.040Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //span[normalize-space()=\"Provincialeweg 57\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:33.080Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.083Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method hover"}
-{"level":30,"time":"2025-04-24T09:43:33.083Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Selecteer in page."}
-{"level":30,"time":"2025-04-24T09:43:33.134Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method hover"}
-{"level":30,"time":"2025-04-24T09:43:33.141Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.142Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Selecteer in page."}
-{"level":30,"time":"2025-04-24T09:43:33.253Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.272Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:33.273Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h2[normalize-space()=\"Om welk type bouw gaat het?\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:33.600Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h2[normalize-space()=\"Om welk type bouw gaat het?\"] containing Om welk type bouw gaat het?"}
-{"level":30,"time":"2025-04-24T09:43:33.601Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:33.621Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.621Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //label[normalize-space()=\"Bestaande bouw\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:33.736Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.752Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.752Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Volgende in page."}
-{"level":30,"time":"2025-04-24T09:43:33.919Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:33.939Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:33.939Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h2[normalize-space()=\"Doel van taxatie\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:34.078Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h2[normalize-space()=\"Doel van taxatie\"] containing Doel van taxatie"}
-{"level":30,"time":"2025-04-24T09:43:34.079Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:34.101Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:34.102Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //label[contains(text(),\"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)\")] in page."}
-{"level":30,"time":"2025-04-24T09:43:34.157Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:34.165Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:34.165Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Volgende in page."}
-{"level":30,"time":"2025-04-24T09:43:34.221Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method click"}
-{"level":30,"time":"2025-04-24T09:43:34.236Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:34.237Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h2[normalize-space()=\"Tussenpersoon\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:34.575Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h2[normalize-space()=\"Tussenpersoon\"] containing Tussenpersoon"}
-{"level":30,"time":"2025-04-24T09:43:34.575Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-24T09:43:34.582Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-24T09:43:34.582Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=[id^=\"headlessui-combobox-input-:\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:34.681Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-24T09:43:34.688Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-24T09:43:34.688Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=[id^=\"headlessui-combobox-option-:\"] in page."}
-{"level":30,"time":"2025-04-24T09:43:44.696Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Error of node method  click"}
+{"level":30,"time":"2025-05-12T05:27:57.224Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-05-12T05:27:57.327Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-05-12T05:27:57.328Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-05-12T05:27:57.328Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-05-12T05:27:57.337Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-12T05:27:57.337Z","pid":25400,"hostname":"NWWI-ICT261","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-12T05:27:57.352Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Changed active context"}
+{"level":30,"time":"2025-05-12T05:27:57.434Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-12T05:27:57.434Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Changed active page"}
+{"level":30,"time":"2025-05-12T05:27:57.775Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-12T05:27:57.780Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-12T05:27:57.781Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=\"Weigeren\" in page."}
+{"level":30,"time":"2025-05-12T05:27:57.808Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-12T05:27:57.811Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:57.811Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=\"Weigeren\" in page."}
+{"level":30,"time":"2025-05-12T05:27:57.860Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:57.865Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.865Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h1[normalize-space()=\"Woningtaxatie aanvragen\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:57.886Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h1[normalize-space()=\"Woningtaxatie aanvragen\"] containing Woningtaxatie aanvragen"}
+{"level":30,"time":"2025-05-12T05:27:57.886Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.890Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.890Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Consument\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:57.904Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Consument\"] containing Consument"}
+{"level":30,"time":"2025-05-12T05:27:57.904Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.908Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.908Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Taxateur\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:57.937Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Taxateur\"] containing Taxateur"}
+{"level":30,"time":"2025-05-12T05:27:57.937Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.942Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.942Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Geldverstrekker\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:57.956Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Geldverstrekker\"] containing Geldverstrekker"}
+{"level":30,"time":"2025-05-12T05:27:57.956Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.961Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.961Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Tussenpersoon\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:57.976Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Tussenpersoon\"] containing Tussenpersoon"}
+{"level":30,"time":"2025-05-12T05:27:57.976Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.980Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.980Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Woningcorporatie\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:57.988Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h6[normalize-space()=\"Woningcorporatie\"] containing Woningcorporatie"}
+{"level":30,"time":"2025-05-12T05:27:57.988Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:57.991Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:57.991Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h6[normalize-space()=\"Tussenpersoon\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:58.043Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:58.053Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-05-12T05:27:58.054Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //input[@id=\"searchPostcode\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:58.127Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method typeText"}
+{"level":30,"time":"2025-05-12T05:27:58.135Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-05-12T05:27:58.135Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //input[@id=\"searchHouseNumber\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:58.156Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method typeText"}
+{"level":30,"time":"2025-05-12T05:27:58.159Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:58.159Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Zoeken in page."}
+{"level":30,"time":"2025-05-12T05:27:58.211Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:58.219Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method hover"}
+{"level":30,"time":"2025-05-12T05:27:58.219Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //span[normalize-space()=\"Provincialeweg 57\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.114Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method hover"}
+{"level":30,"time":"2025-05-12T05:27:59.118Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.118Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //span[normalize-space()=\"Provincialeweg 57\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.159Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.161Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method hover"}
+{"level":30,"time":"2025-05-12T05:27:59.161Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Selecteer in page."}
+{"level":30,"time":"2025-05-12T05:27:59.214Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method hover"}
+{"level":30,"time":"2025-05-12T05:27:59.219Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.219Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Selecteer in page."}
+{"level":30,"time":"2025-05-12T05:27:59.257Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.261Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:59.261Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h2[normalize-space()=\"Om welk type bouw gaat het?\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.375Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h2[normalize-space()=\"Om welk type bouw gaat het?\"] containing Om welk type bouw gaat het?"}
+{"level":30,"time":"2025-05-12T05:27:59.375Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:59.380Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.380Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //label[normalize-space()=\"Bestaande bouw\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.407Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.410Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.410Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Volgende in page."}
+{"level":30,"time":"2025-05-12T05:27:59.459Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.466Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h2[normalize-space()=\"Doel van taxatie\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.466Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:59.508Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h2[normalize-space()=\"Doel van taxatie\"] containing Doel van taxatie"}
+{"level":30,"time":"2025-05-12T05:27:59.508Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:59.512Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.512Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //label[contains(text(),\"De woning gedwongen verkopen (in opdracht van een afdeling Bijzonder Beheer)\")] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.560Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.563Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.564Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=button >> text=Volgende in page."}
+{"level":30,"time":"2025-05-12T05:27:59.608Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.612Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:59.612Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: //h2[normalize-space()=\"Tussenpersoon\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.860Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Retrieved text for element //h2[normalize-space()=\"Tussenpersoon\"] containing Tussenpersoon"}
+{"level":30,"time":"2025-05-12T05:27:59.860Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-12T05:27:59.867Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-05-12T05:27:59.867Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=[id^=\"headlessui-combobox-input-:\"] in page."}
+{"level":30,"time":"2025-05-12T05:27:59.949Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method typeText"}
+{"level":30,"time":"2025-05-12T05:27:59.955Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-12T05:27:59.955Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Strict mode is disabled, return first Locator: css=[id^=\"headlessui-combobox-option-:\"] in page."}
+{"level":30,"time":"2025-05-12T05:28:09.968Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Error of node method  click"}
 ================= Original suppressed error =================
 locator.click: Timeout 10000ms exceeded.
 Call log:
@@ -103,27 +106,27 @@ Call log:
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2025-04-24T09:43:44.772Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-04-24T09:43:44.773Z","pid":14196,"hostname":"NWWI-ICT261","Take screenshot with options: ":{"path":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-04-24T09:43:44.857Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-04-24T09:43:45.064Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-04-24T09:43:45.064Z","pid":14196,"hostname":"NWWI-ICT261","Take screenshot with options: ":{"path":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-04-24T09:43:45.171Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-04-24T09:43:45.182Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.188Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.191Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.194Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.196Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.198Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.202Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.204Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.206Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Changed active context"}
-{"level":30,"time":"2025-04-24T09:43:45.206Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Changing current active page: page=d134d02b-b2c9-4901-8374-1a60988fd181"}
-{"level":30,"time":"2025-04-24T09:43:45.207Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Changed active page"}
-{"level":30,"time":"2025-04-24T09:43:45.210Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-24T09:43:45.220Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Removed page=117621ce-6ac8-4ea8-9254-25bf40739f4a from context=74b9527c-d143-40e7-98c0-1ae51de6229e page stack"}
-{"level":30,"time":"2025-04-24T09:43:45.223Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-24T09:43:45.239Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:45.239Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-24T09:43:46.919Z","pid":14196,"hostname":"NWWI-ICT261","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-04-24T09:43:47.046Z","pid":14196,"hostname":"NWWI-ICT261","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-05-12T05:28:10.000Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-05-12T05:28:10.000Z","pid":25400,"hostname":"NWWI-ICT261","Take screenshot with options: ":{"path":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-05-12T05:28:10.103Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-05-12T05:28:10.121Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-05-12T05:28:10.121Z","pid":25400,"hostname":"NWWI-ICT261","Take screenshot with options: ":{"path":"C:\\Users\\t.limadebarros\\Documents\\robotframe_test\\results\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-05-12T05:28:10.213Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-05-12T05:28:10.223Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.227Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.231Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.235Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.239Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.242Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.252Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.254Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.257Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Changed active context"}
+{"level":30,"time":"2025-05-12T05:28:10.257Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Changing current active page: page=f2d1cd1d-d9d0-4acd-b7c0-e4c3a16144e0"}
+{"level":30,"time":"2025-05-12T05:28:10.257Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Changed active page"}
+{"level":30,"time":"2025-05-12T05:28:10.262Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-05-12T05:28:10.272Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Removed page=b8ba6961-8f28-4b94-aa03-176d69bf69c1 from context=dd76d5ee-d196-4d08-9693-818b41d8e13c page stack"}
+{"level":30,"time":"2025-05-12T05:28:10.278Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-05-12T05:28:10.292Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.293Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-12T05:28:10.394Z","pid":25400,"hostname":"NWWI-ICT261","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-05-12T05:28:10.473Z","pid":25400,"hostname":"NWWI-ICT261","msg":"End of node method closeAllBrowsers"}

@@ -1,18 +1,26 @@
 *** Settings ***
-Resource    ../keywords/Global.robot
+Resource    ../Global.robot
+
+*** Variables ***
+${HEADER}                   Woningtaxatie aanvragen
+${PAGE_HEADER}              //h1[normalize-space()="${HEADER}"]
+@{AANVRAGEN}                Consument    Taxateur    Geldverstrekker    Tussenpersoon    Woningcorporatie
+${AANVRAG_NAAM}             ${EMPTY}
+${AANVRAAG_TILE}            //h6[normalize-space()="${AANVRAG_NAAM}"]
 
 *** Keywords ***
 # Section: General Keywords
-Woningtaxatie Aanvragen
+Ga naar de aanvraag pagina
     [Documentation]    Verifieert de aanwezigheid van de elementen op de Woningtaxatie aanvragen pagina.
-    Get Text    //h1[normalize-space()="Woningtaxatie aanvragen"]    ==    Woningtaxatie aanvragen
-    Get Text    //h6[normalize-space()="Consument"]    ==    Consument
-    Get Text    //h6[normalize-space()="Taxateur"]    ==    Taxateur
-    Get Text    //h6[normalize-space()="Geldverstrekker"]    ==    Geldverstrekker
-    Get Text    //h6[normalize-space()="Tussenpersoon"]    ==    Tussenpersoon
-    Get Text    //h6[normalize-space()="Woningcorporatie"]    ==    Woningcorporatie 
+    # Verifieert de titel van de pagina
+    Get Text    ${PAGE_HEADER}    ==    ${HEADER}
+    # Verifieert de aanvraag titels 
+    FOR    ${naam}    IN    @{AANVRAGEN}
+        Log    Verifying tile: ${naam}
+        Get Text    //h6[normalize-space()="${naam}"]    ==    ${naam}
+    END
 
-Kies Ingang
+Kies aanvraag
     [Arguments]    ${ingang}
     [Documentation]    Selecteert de ingang op basis van de opgegeven waarde.
     Click    //h6[normalize-space()="${ingang}"]
@@ -23,10 +31,6 @@ Type Rapport
     Get Text    //h1[normalize-space()="Nieuwe aanvraag"]    ==    Nieuwe aanvraag
     Get Text    //h2[normalize-space()="Voor welk type rapport doet u een aanvraag?"]    ==    Voor welk type rapport doet u een aanvraag?
     Click    //label[normalize-space()="${rapporttype}"]
-
-Vraag Aan
-    [Documentation]    Klikt op de knop "Vraag aan".
-    Click    css=button >> text=Vraag aan
     
 # Section: Address Keywords
 Postcode Huisnummer
@@ -35,13 +39,10 @@ Postcode Huisnummer
     Type Text    //input[@id="searchPostcode"]    ${postcode} 
     Type Text    //input[@id="searchHouseNumber"]    ${huisnummer}
 
-Zoeken
-    [Documentation]    Klikt op de knop "Zoeken".
-    Click    css=button >> text=Zoeken
-
-Selecteer
-    [Documentation]    Klikt op de knop "Selecteer".
-    Click    css=button >> text=Selecteer
+Click op
+    [Documentation]    Klikt op de opgegeven knop.
+    [Arguments]    ${button_text}
+    Click    css=button >> text=${button_text}
 
 Adres Selecteren Zonder Huisnummertoevoeging
     [Arguments]    ${straat}    ${huisnummer}
@@ -81,10 +82,6 @@ Soort Bouw
     [Documentation]    Selecteert het type bouw.
     Get Text    //h2[normalize-space()="Om welk type bouw gaat het?"]    ==    Om welk type bouw gaat het?
     Click    //label[normalize-space()="${soortbouw}"]
-
-Volgende
-    [Documentation]    Klikt op de knop "Volgende".
-    Click    css=button >> text=Volgende
 
 # Section: Purpose Keywords
 Doel
@@ -126,7 +123,6 @@ Bevestig Keuze Combobox
     Click    css=[id^="headlessui-combobox-option-:"]
 
 Taxateur Identificatie
-    #Wait For Condition  Url  should end with     https://aanvraag.acc.nwwi.nl/taxateur/taxatie/identificatie
     Get Text    //div[@class="nwwi-rounded nwwi-p-5 nwwi-bg-cta-blue-200"]    ==    Omdat u niet hoeft in te loggen voor het aanvragen van een taxatie, dient u hier tijdelijk uw eigen bedrijfsnaam te selecteren.
 
 Opdrachtverstrekker Opvoeren
@@ -136,8 +132,8 @@ Geldverstrekker Opvoeren
     Get Text    //label[normalize-space()="Selecteer een geldverstrekker"]    ==    Selecteer een geldverstrekker
 
 Kies Type Opdrachtgever         #default is Consument
-    Get Text    //label[normalize-space()="Type opdrachtgever"]    ==    Type opdrachtgever
     [Arguments]      ${opdrachtgevertype}
+    Get Text    //label[normalize-space()="Type opdrachtgever"]    ==    Type opdrachtgever
     Click    //label[normalize-space()="${opdrachtgevertype}"]
 
 Opvoeren Organisatie         
@@ -275,10 +271,8 @@ Taxateur Opvoeren Heel Nederland
     Get Text    //li[contains(text(),"Alle bij het NWWI aangesloten taxateurs van dit taxatiebedrijf hebben aangegeven niet aanwezig te zijn.")]    ==    Alle bij het NWWI aangesloten taxateurs van dit taxatiebedrijf hebben aangegeven niet aanwezig te zijn.
     Click    //label[contains(text(),'Ik wil in heel Nederland zoeken naar een taxatiebedrijf.')]
 
-
- Overslaan Doe Ik In Taxatieweb 
+Overslaan Doe Ik In Taxatieweb 
      Click    //label[normalize-space()="Overslaan, dit doe ik in Taxatieweb"]
-
 
 Overzicht Aanvraag    
     Get Text    //h5[normalize-space()="Adresgegevens object"]    ==    Adresgegevens object
@@ -288,7 +282,6 @@ Overzicht Aanvraag Doel Taxatie
     Get Text    //h5[normalize-space()='Bijzonderheden']    ==    Bijzonderheden
     Get Text    //div[normalize-space()='Doel Taxatie']    ==    Doel Taxatie
     Get Text    //div[normalize-space()='U wilt een lening krijgen of aanpassen (financiering)']    ==    U wilt een lening krijgen of aanpassen (financiering)
-
 
 Overzicht Aanvraag Nieuwbouw
     Get Text    //div[normalize-space()='Is er sprake van (nog niet opgeleverde) nieuwbouw?']    ==    Is er sprake van (nog niet opgeleverde) nieuwbouw?
@@ -301,11 +294,6 @@ Akkoord Voorwaarden
     [Documentation]    Accepteert de voorwaarden.
     Scroll To Element    //label[@for="acceptAgreement"]
     Click    (//label[@for='${accepteer_voorwaarden}'])[1]
-
-
-Verzenden
-    [Documentation]    Klikt op de knop "Verzenden".
-    Click    css=button >> text=Verzenden
 
 Bedankt
     [Documentation]    Controleert de "Bedankt" pagina.
